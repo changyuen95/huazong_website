@@ -17,6 +17,14 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('recent-activity', function(){
+    return view('recent_activity');
+});
+
+Route::get('event-detail', function(){
+    return view('event_detail');
+});
+
 Route::get('/{any}', function () {
     return view('comingsoon');
 });
