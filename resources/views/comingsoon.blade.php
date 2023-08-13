@@ -69,7 +69,8 @@
                     </div><!-- /.logo-box -->
                     <div class="main-nav__main-navigation">
                         <ul class="main-nav__navigation-box">
-                        <li><a href="/comming_soon">认识华总</a></li>
+                        <li><a href="/">首页</a></li>
+                        <li><a href="/info">认识华总</a></li>
 
                         <li><a href="/comming_soon">各州华堂</a></li>
                         <li><a href="/comming_soon">最新活动</a></li>
@@ -348,7 +349,7 @@
         </div><!-- /.side-menu__block-overlay -->
         <div class="side-menu__block-inner ">
 
-            <a href="index.html" class="side-menu__logo"><img src="assets/images/logo-light-1-1.png" alt="" width="143"></a>
+            <a href="index.html" class="side-menu__logo"><img src="/assets/images/huazong.png" alt="" width="143"></a>
             <nav class="mobile-nav__container">
                 <!-- content is loading via js -->
             </nav>

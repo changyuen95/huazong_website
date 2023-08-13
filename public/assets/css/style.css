@@ -56,7 +56,8 @@ body {
 	font-family: var(--thm-font);
 	font-size: 16px;
 	line-height: 28px;
-	color: #848484;
+	color: #555555;
+	background-image: url('/assets/images/repeat-bg.png');
 }
 
 ::marker {
@@ -75,6 +76,9 @@ h4,
 h5,
 h6 {
 	font-family: var(--heading-font);
+	color: #252930;
+	font-weight: 600;
+
 }
 
 a,
@@ -531,7 +535,7 @@ a:focus {
 .block-title-two {
 	margin-bottom: 60px;
 	position: relative;
-	padding-top: 170px;
+	/* padding-top: 170px; */
 }
 
 .block-title-two__line {
@@ -1896,11 +1900,11 @@ a:focus {
 
 .featured-collection__right>p {
 	margin: 0;
-	color: var(--thm-black);
+	/* color: var(--thm-black);
 	font-family: var(--heading-font);
 	font-size: 24px;
 	line-height: 44px;
-	margin-bottom: 85px;
+	margin-bottom: 85px; */
 }
 
 .featured-collection__right .block-title {

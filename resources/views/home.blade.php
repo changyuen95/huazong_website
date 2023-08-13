@@ -176,7 +176,7 @@
                             <img src="/assets/images/home-bottom2.png" alt="">
                         </div><!-- /.exhibition-one__image -->
                         <div class="exhibition-one__content">
-                            <h3><a href="/comming_soon">华总马来西亚华人博物馆</a></h3>
+                            <h3><a href="/comming_soon">丹斯里杨忠礼大礼堂</a></h3>
                             <p>G楼大厅</p>
                         </div><!-- /.exhibition-one__content -->
                     </div><!-- /.exhibition-one__single -->
@@ -349,7 +349,7 @@
 
 
     <!--  -->
-    <section class="event-one pb-4" style="background: url(/assets/images/event-bg.jpg);background-repeat:no-repeat;background-size:cover;">
+    <section class="event-one pb-4" style="display:none;background: url(/assets/images/event-bg.jpg);background-repeat:no-repeat;background-size:cover;">
         <!-- <img src="assets/images/shapes/event-sculpture-1-1.png" alt="" class="event-one__moc"> -->
         <div class="container" style="padding-left:0px;padding:right:0px">
             <div class="block-title-two text-center">
@@ -424,6 +424,10 @@
                         </div><!-- /.event-one__btn-block -->
                     </div><!-- /.event-one__single -->
                 </div><!-- /.col-lg-12 -->
+
+
+
+                
                 <div class="col-lg-12">
                     <div class="d-flex justify-content-center my-3">
                         <div class="more-post__block">

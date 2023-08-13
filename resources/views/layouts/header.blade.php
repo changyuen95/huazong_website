@@ -9,9 +9,14 @@
             <a href="#" class="thm-btn topbar__btn">Buy Tickets</a>
         </div> -->
     <!-- </div> -->
-    <div class="marquee px-5">
+    <div class="marquee px-5" >
         <p class="text-white m-0">
-            华总总会长丹斯里吴添泉呼吁，全球乃至我国应积极关注，日本政府排放核废水入海的行动，并采取最一致的反对立场，以免祸及全球有关行动必将威胁全球海洋环境，以及威胁公众健康，联合国应全面介入，根据国际道义和国际法做出表态，而其属下的国际原子能机构，也应做出更专业和符合国际整体公共卫生和安全利益的评估报告，而不应交予日本一份被该国认定为‘许可’的报告。
+        华总启用全新网站资讯 统称"大马华总"&nbsp;&nbsp;&nbsp;
+        面子书：<a href="https://www.facebook.com/huazongmy" target="_blank">马来西亚中华大会堂总会-华总</a>&nbsp;&nbsp;&nbsp;
+        Instagram：<a href="https://www.instagram.com/dama_huazong_official" target="_blank">dama_huazong_official</a>&nbsp;&nbsp;&nbsp;
+        秘书处邮箱: <a href="mailto:secretariat@dama-huazong.com" target="_blank">secretariat@dama-huazong.com</a>&nbsp;&nbsp;&nbsp;
+        营销部邮箱: <a href="mailto:marketing@dama-huazong.com" target="_blank">marketing@dama-huazong.com</a>&nbsp;&nbsp;&nbsp;
+        华人博物馆邮箱: <a href="mailto:malaysianchinesemuseum@dama-huazong.com" target="_blank">malaysianchinesemuseum@dama-huazong.com</a>
         </p>
     </div>
 </div>
@@ -27,7 +32,8 @@
             </div><!-- /.logo-box -->
             <div class="main-nav__main-navigation">
                 <ul class="main-nav__navigation-box">
-                <li><a href="/comming_soon">认识华总</a></li>
+                <li><a href="/">首页</a></li>
+                <li><a href="/info">认识华总</a></li>
 
                 <li><a href="/comming_soon">各州华堂</a></li>
                 <li><a href="/comming_soon">最新活动</a></li>

@@ -6,6 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>华总</title>
 
+    <meta name="description" content="华总">
+    <meta property="og:title" content="华总" />
+    <meta property="og:description" content="华总" />
+    <meta property="og:url" content="https://dama-huazong.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="华总" />
+    <meta property="og:image" content="https://dama-huazong.com/assets/images/huazong-logo.png" />
+
+    <!-- <meta name="twitter:title" content="华总" />
+    <meta name="twitter:description" content="华总" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@ODNMalaysia" />
+    <meta name="twitter:creator" content="@ODNMalaysia" />
+    <meta name="twitter:image" content="https://dama-huazong.com/assets/images/huazong-logo.png" /> -->
+
+
     <!-- favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
@@ -114,7 +130,7 @@
         </div><!-- /.side-menu__block-overlay -->
         <div class="side-menu__block-inner ">
 
-            <a href="index.html" class="side-menu__logo"><img src="/assets/images/logo-light-1-1.png" alt="" width="143"></a>
+            <a href="index.html" class="side-menu__logo"><img src="/assets/images/huazong-logo.png" alt="" width="143"></a>
             <nav class="mobile-nav__container">
                 <!-- content is loading via js -->
             </nav>
@@ -149,6 +165,7 @@
 
     <!-- Custom Scripts -->
     <script src="/assets/js/theme.js"></script>
+
 </body>
 
 </html>

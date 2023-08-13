@@ -17,6 +17,9 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/info', function () {
+    return view('huazong.info');
+});
 Route::get('/{any}', function () {
     return view('comingsoon');
 });
