@@ -24,6 +24,10 @@ Route::get('recent-activity', function(){
     return view('recent_activity');
 });
 
+Route::get('national-thirteen-hall', function(){
+    return view('national_thirteen_halls');
+});
+
 Route::get('event-detail', function(){
     return view('event_detail');
 });

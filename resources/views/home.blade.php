@@ -154,9 +154,9 @@
     <!--  -->
     <section class="exhibition-one" style="background: url(/assets/images/home-bottom-bg.png) bottom;background-repeat:no-repeat;background-size:1200px">
         <div class="container" style="padding-left:0px;padding:right:0px">
-            <div class="block-title-two text-center">
+            <div class="block-title-two text-center pt-5">
                 <span class="block-title-two__line"></span><!-- /.block-title-two__line -->
-                <h3>华总大厦</h3>
+                <h3 class="mt-5">华总大厦</h3>
             </div><!-- /.block-title-two -->
             <div class="row high-gutter">
                 <div class="col-lg-4">
@@ -349,12 +349,12 @@
 
 
     <!--  -->
-    <section class="event-one pb-4" style="display:none;background: url(/assets/images/event-bg.jpg);background-repeat:no-repeat;background-size:cover;">
+    <section class="event-one pb-4" style="background: url(/assets/images/event-bg.jpg);background-repeat:no-repeat;background-size:cover;">
         <!-- <img src="assets/images/shapes/event-sculpture-1-1.png" alt="" class="event-one__moc"> -->
         <div class="container" style="padding-left:0px;padding:right:0px">
-            <div class="block-title-two text-center">
+            <div class="block-title-two text-center pt-5">
                 <span class="block-title-two__line"></span><!-- /.block-title-two__line -->
-                <p>What’s Going on</p>
+                <p class="mt-5">What’s Going on</p>
                 <h3>最新活动</h3>
             </div><!-- /.block-title-two -->
             <div class="row">
@@ -384,21 +384,21 @@
                     <div class="event-one__single">
                         <div class="event-one__image">
                             <div class="event-one__date">
-                                <span>17</span>
-                                Nov
+                                <span>31</span>
+                                Oct
                             </div><!-- /.event-one__date -->
                             <div class="event-one__image-box">
                                 <div class="event-one__image-inner">
-                                    <img src="assets/images/event/event-1-2.jpg" alt="">
+                                    <img src="{{ asset('assets/images/activity/activity1.png') }}" alt="" style="width: 159px; height:159px;">
                                 </div><!-- /.event-one__image-inner -->
                             </div><!-- /.event-one__image-box -->
                         </div><!-- /.event-one__image -->
                         <div class="event-one__content">
-                            <h3><a href="event-details.html">Calvert Richard Jones’s Duomo.</a></h3>
-                            <p>Man face fruit divided seasons herb from herb moveth whose.</p>
+                            <h3 style="font-size: 16px;"><a style="width: 500px;" href="event-details.html">2023年东盟美食节将于9月19日至10月10日在中国上海国家会展中心盛大举行</a></h3>
+                            <p>漠印需指托莱俭俘完速堆资麦房珩难蚕锡。胚玄丛羊，忍仍庸反油隶摄磅译复榜场欲儒躁股比慕嘀量取兔定，</p>
                         </div><!-- /.event-one__content -->
                         <div class="event-one__btn-block">
-                            <a href="event-details.html" class="thm-btn event-one__btn">Learn More</a>
+                            <a href="event-details.html" class="thm-btn event-one__btn" style="border-radius: 10px;">阅读更多</a>
                         </div><!-- /.event-one__btn-block -->
                     </div><!-- /.event-one__single -->
                 </div><!-- /.col-lg-12 -->
@@ -406,28 +406,24 @@
                     <div class="event-one__single">
                         <div class="event-one__image">
                             <div class="event-one__date">
-                                <span>04</span>
-                                Dec
+                                <span>31</span>
+                                Oct
                             </div><!-- /.event-one__date -->
                             <div class="event-one__image-box">
                                 <div class="event-one__image-inner">
-                                    <img src="assets/images/event/event-1-3.jpg" alt="">
+                                    <img src="{{ asset('assets/images/activity/activity1.png') }}" alt="" style="width: 159px; height:159px;">
                                 </div><!-- /.event-one__image-inner -->
                             </div><!-- /.event-one__image-box -->
                         </div><!-- /.event-one__image -->
                         <div class="event-one__content">
-                            <h3><a href="event-details.html">Celebrating Museum Day</a></h3>
-                            <p>Man face fruit divided seasons herb from herb moveth whose.</p>
+                            <h3 style="font-size: 16px;"><a style="width: 500px;" href="event-details.html">2023年东盟美食节将于9月19日至10月10日在中国上海国家会展中心盛大举行</a></h3>
+                            <p>漠印需指托莱俭俘完速堆资麦房珩难蚕锡。胚玄丛羊，忍仍庸反油隶摄磅译复榜场欲儒躁股比慕嘀量取兔定，</p>
                         </div><!-- /.event-one__content -->
                         <div class="event-one__btn-block">
-                            <a href="event-details.html" class="thm-btn event-one__btn">Learn More</a>
+                            <a href="event-details.html" class="thm-btn event-one__btn" style="border-radius: 10px;">阅读更多</a>
                         </div><!-- /.event-one__btn-block -->
                     </div><!-- /.event-one__single -->
                 </div><!-- /.col-lg-12 -->
-
-
-
-                
                 <div class="col-lg-12">
                     <div class="d-flex justify-content-center my-3">
                         <div class="more-post__block">

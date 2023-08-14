@@ -114,6 +114,31 @@
     outline: none !important;
 }
 
+.nav-pills .pill-nav-items.nav-link:not(.active) {
+    background-color: #F9F9F9;
+	color: var(--thm-black);
+    /* border-radius: 10px; */
+    border: 0;
+    font-size: 17px;
+}
+
+.nav-pills .pill-nav-items.nav-link {
+    background-color: #FDE8EE;
+    color: #EB1757;
+    font-weight: bold;
+    /* border-radius: 10px; */
+    border: 1px solid #EB1757;
+    font-size: 17px;
+}
+
+/* focus */
+.nav-pills .pill-nav-items.nav-link:focus {
+    outline-color: #EB1757 !important;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+
 .category-title{
     font-size: 20px;
     font-weight: bold;
@@ -121,3 +146,29 @@
     margin-bottom: 10px;
 }
 
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 0 16px;
+}
+
+.contact-card {
+    background: #F9FAFB;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%; /* Set initial width for all screen sizes */
+}
+
+/* Media query for screens smaller than or equal to 576px (typically mobile devices) */
+@media (max-width: 576px) {
+    .contact-container {
+        flex-direction: column;
+    }
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background: #EAECF0; /* Change this color to your desired striped color */
+}

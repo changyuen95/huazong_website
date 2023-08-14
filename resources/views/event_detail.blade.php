@@ -96,15 +96,17 @@
                             <div class="d-flex">
                                 <div class="d-flex flex-fill">
                                     <div class="p-2">
-                                        <svg width="25" height="86" viewBox="0 0 25 86" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                            <rect width="25" height="86" fill="url(#pattern0)"/>
-                                            <defs>
-                                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                                    <use xlink:href="#image0_7_1041" transform="matrix(0.04 0 0 0.0125345 0 0.224242)"/>
-                                                </pattern>
-                                                <image id="image0_7_1041" width="24" height="44" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAsBAMAAACNsmVwAAAAJFBMVEUAAADl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eUr8Vo4AAAAC3RSTlMABjDtsK/qDCS8u2HozwsAAABASURBVCjPY0AARgEkjmggkkS0BZLEZgUkCaNhIcG+GkmiDCqByWGfjaSMQQRZitF7SEslIUttQ5HKQJZyREkuAAJpH0rXDOkxAAAAAElFTkSuQmCC"/>
-                                            </defs>
-                                        </svg>
+                                        <a href="#">
+                                            <svg width="25" height="86" viewBox="0 0 25 86" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <rect width="25" height="86" fill="url(#pattern0)"/>
+                                                <defs>
+                                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                        <use xlink:href="#image0_7_1041" transform="matrix(0.04 0 0 0.0125345 0 0.224242)"/>
+                                                    </pattern>
+                                                    <image id="image0_7_1041" width="24" height="44" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAsBAMAAACNsmVwAAAAJFBMVEUAAADl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eUr8Vo4AAAAC3RSTlMABjDtsK/qDCS8u2HozwsAAABASURBVCjPY0AARgEkjmggkkS0BZLEZgUkCaNhIcG+GkmiDCqByWGfjaSMQQRZitF7SEslIUttQ5HKQJZyREkuAAJpH0rXDOkxAAAAAElFTkSuQmCC"/>
+                                                </defs>
+                                            </svg>
+                                        </a>
                                     </div>
                                     <div class="align-self-center">
                                         <div class="px-2 text-left">上一个活动</div>
@@ -118,15 +120,17 @@
                                         <div class="px-2 font-weight-bold" style="color: #000000;">接待张瑞海领导的中国北京百悟集团访问团</div>
                                     </div>
                                     <div class="p-2">
-                                        <svg width="26" height="86" viewBox="0 0 26 86" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                            <rect width="25" height="86" transform="matrix(-1 0 0 1 25.9805 0)" fill="url(#pattern0)"/>
-                                            <defs>
-                                                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                                    <use xlink:href="#image0_7_1051" transform="matrix(0.04 0 0 0.0125345 0 0.224242)"/>
-                                                </pattern>
-                                                <image id="image0_7_1051" width="24" height="44" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAsBAMAAACNsmVwAAAAJFBMVEUAAADl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eUr8Vo4AAAAC3RSTlMABjDtsK/qDCS8u2HozwsAAABASURBVCjPY0AARgEkjmggkkS0BZLEZgUkCaNhIcG+GkmiDCqByWGfjaSMQQRZitF7SEslIUttQ5HKQJZyREkuAAJpH0rXDOkxAAAAAElFTkSuQmCC"/>
-                                            </defs>
-                                        </svg>
+                                        <a href="#">
+                                            <svg width="26" height="86" viewBox="0 0 26 86" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <rect width="25" height="86" transform="matrix(-1 0 0 1 25.9805 0)" fill="url(#pattern0)"/>
+                                                <defs>
+                                                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                        <use xlink:href="#image0_7_1051" transform="matrix(0.04 0 0 0.0125345 0 0.224242)"/>
+                                                    </pattern>
+                                                    <image id="image0_7_1051" width="24" height="44" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAsBAMAAACNsmVwAAAAJFBMVEUAAADl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eUr8Vo4AAAAC3RSTlMABjDtsK/qDCS8u2HozwsAAABASURBVCjPY0AARgEkjmggkkS0BZLEZgUkCaNhIcG+GkmiDCqByWGfjaSMQQRZitF7SEslIUttQ5HKQJZyREkuAAJpH0rXDOkxAAAAAElFTkSuQmCC"/>
+                                                </defs>
+                                            </svg>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
