@@ -67,8 +67,8 @@
                 </li>
             </ul>
         </div>
+        
         <div class="container" style="padding-left:0px;padding:right:0px">
-
             <div class="tab-content" id="pills-tabContent">
                 <div class="tab-pane fade show active" id="pills-main" role="tabpanel" aria-labelledby="pills-main-tab">1 @include('event_state.main_hall')</div>
                 <div class="tab-pane fade" id="pills-sabah" role="tabpanel" aria-labelledby="pills-sabah-tab">2 @include('event_state.sabah_hall')</div>

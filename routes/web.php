@@ -22,7 +22,7 @@ Route::get('/info', function () {
 });
 Route::get('recent-activity', function(){
     return view('recent_activity');
-});
+})->name('recent_activity');
 
 Route::get('national-thirteen-hall', function(){
     return view('national_thirteen_halls');

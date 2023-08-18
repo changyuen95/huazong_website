@@ -12,15 +12,18 @@
 
     
 
-    <section class="page-header" style="background-image: url(assets/images/event-detail/bg.png); background-repeat: no-repeat;">
+    <!-- <section class="page-header" style="background-image: url(assets/images/event-detail/bg.png); background-repeat: no-repeat;">
         <div class="container" style="padding-left:0px;padding:right:0px">
             <h2>中国全国政协港澳台侨委会莅临访问华总</h2>
-        </div><!-- /.container -->
-    </section><!-- /.page-header -->
+        </div>
+    </section> -->
+
     <section class="blog-one blog-standard-page">
         <div class="container" style="padding-left:0px;padding:right:0px">
             <div class="row">
-
+                <div class="px-3">
+                    <h2>中国全国政协港澳台侨委会莅临访问华总</h2>
+                </div>
                 <!-- Left Content -->
                 <div class="col-lg-8">
                     <div class="row">
@@ -144,8 +147,8 @@
                     <div class="sidebar">
                         <div class="sidebar__single">
                             <h3 class="sidebar__title">搜寻</h3>
-                            <form action="#" class="sidebar__search">
-                                <input type="text" placeholder="搜寻">
+                            <form action="{{ url('/') }}/recent-activity?" class="sidebar__search" method="GET">
+                                <input type="text" name="search" placeholder="搜寻">
                                 <button type="submit"><i class="muzex-icon-search"></i></button>
                             </form>
                         </div><!-- /.sidebar__single -->
