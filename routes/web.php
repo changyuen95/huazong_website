@@ -32,6 +32,10 @@ Route::get('event-detail', function(){
     return view('event_detail');
 });
 
+Route::get('museum', function(){
+    return view('museum');
+});
+
 Route::get('/{any}', function () {
     return view('comingsoon');
 });
