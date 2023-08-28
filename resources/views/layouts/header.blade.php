@@ -10,7 +10,7 @@
         </div> -->
     <!-- </div> -->
     <div class="marquee px-5" >
-        <p class="text-white m-0">
+        <p class="text-white m-0" style="font-size:19px">
         华总启用全新网站资讯 统称"大马华总"&nbsp;&nbsp;&nbsp;
         面子书：<a href="https://www.facebook.com/huazongmy" target="_blank">马来西亚中华大会堂总会-华总</a>&nbsp;&nbsp;&nbsp;
         Instagram：<a href="https://www.instagram.com/dama_huazong_official" target="_blank">dama_huazong_official</a>&nbsp;&nbsp;&nbsp;
@@ -35,8 +35,8 @@
                 <li><a href="/">首页</a></li>
                 <li><a href="/info">认识华总</a></li>
 
-                <li><a href="/comming_soon">各州华堂</a></li>
-                <li><a href="/comming_soon">最新活动</a></li>
+                <li><a href="/national-thirteen-hall">各州华堂</a></li>
+                <li><a href="/recent-activity">最新活动</a></li>
 
                     <!-- <li class="dropdown">
                         <a href="index.html">认识华总</a>
@@ -103,7 +103,6 @@
                             <li><a href="news-details.html">News Details</a></li>
                         </ul>
                     </li> -->
-                    <li><a href="/comming_soon">下载区</a></li>
                     <li><a href="/comming_soon">教育基金</a></li>
                     <li><a href="/comming_soon">华人博物馆</a></li>
                     <li><a href="/comming_soon">联络我们</a></li>

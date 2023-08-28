@@ -1,5 +1,5 @@
 <div style="background: #FFFFFF;">
-    1.
+    
     <!-- Sabah Huitang Intro -->
     <div class="d-flex flex-column flex-sm-row mb-4 px-3">
         <img class="m-4 align-self-center" style="width: 200px;" src="{{ asset('assets/images/huatang-detail/sabah-logo.png') }}" alt="sabah">
@@ -29,7 +29,7 @@
             </svg>
             <h5 class="mb-4">联络电话</h5>
             <p class="mb-0">Tel: (+60) 88-253433</p>
-            <p class="mb-0">Fax: (+60) 88-268433</p>
+            <!-- <p class="mb-0">Fax: (+60) 88-268433</p> -->
         </div>
 
         <div class="contact-card">

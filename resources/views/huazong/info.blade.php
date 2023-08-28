@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('title', '简介 - 大马华总')
+
+
 @section('content')
 <!-- Banner Section -->
 <section class="banner-section">

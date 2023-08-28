@@ -41,7 +41,7 @@
                 </div> -->
                 <div class="col-lg-3">
                     <div class="footer-widget footer-widget__contact">
-                        <h3 class="footer-widget__title">聯絡方式</h3>
+                        <h3 class="footer-widget__title">华总聯絡方式</h3>
                         <p>Wisma Huazong, Lot 15285, <br>
                         Sungai Besi Expy, 43300 Seri Kembangan, Selangor</p>
                         <p><a href="tel:601110534110">601110534110</a></p>

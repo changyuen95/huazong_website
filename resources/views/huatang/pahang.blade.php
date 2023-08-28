@@ -1,10 +1,9 @@
 <div style="background: #FFFFFF;">
-    4.
     <!-- Sabah Huitang Intro -->
     <div class="d-flex flex-column flex-sm-row mb-4 px-3">
         <img class="m-4 align-self-center" style="width: 200px;" src="{{ asset('assets/images/huatang-detail/sabah-logo.png') }}" alt="sabah">
         <div class="align-self-center flex-grow-1">
-            <h4 class="mx-2">沙巴中华大会堂</h4>
+            <h4 class="mx-2">彭亨中华大会堂</h4>
             <p class="mb-0 mx-2" style="font-size: 22px;">Gabungan Persatuan Cina Sabah</p>
             <p class="mb-0 mx-2" style="font-size: 22px;">The Federation Of Chinese Associations Sabah</p>
         </div>

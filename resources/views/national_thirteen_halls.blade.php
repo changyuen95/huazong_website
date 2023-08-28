@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('title', '全国十三州大会堂 - 大马华总')
+
+
 @section('content')
 <div class="preloader">
     <div class="lds-ripple">
@@ -41,12 +44,12 @@
                             </div>
                         </button>
 
-                        <button class="pill-nav-items nav-link mb-1 w-100" id="v-pills-pahang-tab" data-toggle="pill" data-target="#v-pills-pahang" type="button" role="tab" aria-controls="v-pills-pahang" aria-selected="false">
+                        <!-- <button class="pill-nav-items nav-link mb-1 w-100" id="v-pills-pahang-tab" data-toggle="pill" data-target="#v-pills-pahang" type="button" role="tab" aria-controls="v-pills-pahang" aria-selected="false">
                             <div class="d-flex">
                                 <img class="mx-2 align-self-center" src="{{ asset('assets/images/team/pahang-logo.png') }}" alt="pahang-logo" style="width: 70px;">
                                 <span class="mx-2 align-self-center flex-grow-1 text-left">彭亨华人社团联合会</span>
                             </div>
-                        </button>
+                        </button> -->
 
                         <button class="pill-nav-items nav-link mb-1 w-100" id="v-pills-terenganu-tab" data-toggle="pill" data-target="#v-pills-terenganu" type="button" role="tab" aria-controls="v-pills-terenganu" aria-selected="false">
                             <div class="d-flex">

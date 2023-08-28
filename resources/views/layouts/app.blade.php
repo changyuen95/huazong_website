@@ -4,15 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>华总</title>
+    <!-- <title>华总</title> -->
+    <title>@yield('title')</title>
 
-    <meta name="description" content="华总">
-    <meta property="og:title" content="华总" />
-    <meta property="og:description" content="华总" />
+
+    <meta name="description" content="huazong 华总">
+    <meta property="og:title" content="huazong - 大马华总"/>
+    <meta property="og:description" content="全新的“大马华总”网站，包括了华总的网址、脸书账号、Instagram账号及一系列的邮箱账号等。" />
     <meta property="og:url" content="https://dama-huazong.com/" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="华总" />
+    <meta property="og:site_name" content="大马华总" />
     <meta property="og:image" content="https://dama-huazong.com/assets/images/huazong-logo.png" />
+
+    <meta property="og:type" content="article" />
 
     <!-- <meta name="twitter:title" content="华总" />
     <meta name="twitter:description" content="华总" />

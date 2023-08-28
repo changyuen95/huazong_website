@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('title', '马来西亚中华大会堂总会 - 大马华总')
+
+
 @section('content')
 <!-- Banner Section -->
 <section class="banner-section">
@@ -367,67 +370,25 @@
                             </div><!-- /.event-one__date -->
                             <div class="event-one__image-box">
                                 <div class="event-one__image-inner">
-                                    <img src="{{ asset('assets/images/activity/activity1.png') }}" alt="" style="width: 159px; height:159px;">
+                                    <img src="{{ asset('assets/images/event_detail/event-image1.png') }}" alt="" style="width: 159px; height:159px;">
                                 </div><!-- /.event-one__image-inner -->
                             </div><!-- /.event-one__image-box -->
                         </div><!-- /.event-one__image -->
                         <div class="event-one__content">
-                            <h3 style="font-size: 16px;"><a style="width: 500px;" href="event-details.html">2023年东盟美食节将于9月19日至10月10日在中国上海国家会展中心盛大举行</a></h3>
-                            <p>漠印需指托莱俭俘完速堆资麦房珩难蚕锡。胚玄丛羊，忍仍庸反油隶摄磅译复榜场欲儒躁股比慕嘀量取兔定，</p>
+                            <h3 style="font-size: 16px;"><a style="width: 500px;" href="/event-detail">2023年东盟美食节将于9月19日至10月10日在中国上海国家会展中心盛大举行</a></h3>
+                            <p>马中商务理事会联办上海东盟美食节　吴添泉冀我国商家响应参与</p>
                         </div><!-- /.event-one__content -->
                         <div class="event-one__btn-block">
-                            <a href="event-details.html" class="thm-btn event-one__btn" style="border-radius: 10px;">阅读更多</a>
+                            <a href="/event-detail" class="thm-btn event-one__btn" style="border-radius: 10px;">阅读更多</a>
                         </div><!-- /.event-one__btn-block -->
                     </div><!-- /.event-one__single -->
                 </div><!-- /.col-lg-12 -->
-                <div class="col-lg-12">
-                    <div class="event-one__single">
-                        <div class="event-one__image">
-                            <div class="event-one__date">
-                                <span>31</span>
-                                Oct
-                            </div><!-- /.event-one__date -->
-                            <div class="event-one__image-box">
-                                <div class="event-one__image-inner">
-                                    <img src="{{ asset('assets/images/activity/activity1.png') }}" alt="" style="width: 159px; height:159px;">
-                                </div><!-- /.event-one__image-inner -->
-                            </div><!-- /.event-one__image-box -->
-                        </div><!-- /.event-one__image -->
-                        <div class="event-one__content">
-                            <h3 style="font-size: 16px;"><a style="width: 500px;" href="event-details.html">2023年东盟美食节将于9月19日至10月10日在中国上海国家会展中心盛大举行</a></h3>
-                            <p>漠印需指托莱俭俘完速堆资麦房珩难蚕锡。胚玄丛羊，忍仍庸反油隶摄磅译复榜场欲儒躁股比慕嘀量取兔定，</p>
-                        </div><!-- /.event-one__content -->
-                        <div class="event-one__btn-block">
-                            <a href="event-details.html" class="thm-btn event-one__btn" style="border-radius: 10px;">阅读更多</a>
-                        </div><!-- /.event-one__btn-block -->
-                    </div><!-- /.event-one__single -->
-                </div><!-- /.col-lg-12 -->
-                <div class="col-lg-12">
-                    <div class="event-one__single">
-                        <div class="event-one__image">
-                            <div class="event-one__date">
-                                <span>31</span>
-                                Oct
-                            </div><!-- /.event-one__date -->
-                            <div class="event-one__image-box">
-                                <div class="event-one__image-inner">
-                                    <img src="{{ asset('assets/images/activity/activity1.png') }}" alt="" style="width: 159px; height:159px;">
-                                </div><!-- /.event-one__image-inner -->
-                            </div><!-- /.event-one__image-box -->
-                        </div><!-- /.event-one__image -->
-                        <div class="event-one__content">
-                            <h3 style="font-size: 16px;"><a style="width: 500px;" href="event-details.html">2023年东盟美食节将于9月19日至10月10日在中国上海国家会展中心盛大举行</a></h3>
-                            <p>漠印需指托莱俭俘完速堆资麦房珩难蚕锡。胚玄丛羊，忍仍庸反油隶摄磅译复榜场欲儒躁股比慕嘀量取兔定，</p>
-                        </div><!-- /.event-one__content -->
-                        <div class="event-one__btn-block">
-                            <a href="event-details.html" class="thm-btn event-one__btn" style="border-radius: 10px;">阅读更多</a>
-                        </div><!-- /.event-one__btn-block -->
-                    </div><!-- /.event-one__single -->
-                </div><!-- /.col-lg-12 -->
+              
+                
                 <div class="col-lg-12">
                     <div class="d-flex justify-content-center my-3">
                         <div class="more-post__block">
-                            <a class="more-post__link" href="#">
+                            <a class="more-post__link" href="/recent-activity">
                                 更多
                                 <span class="curved-circle">View More &nbsp;&emsp;View More &nbsp;&emsp;View More View More View More &nbsp;&emsp;View &nbsp;&emsp; </span>
                                 <!-- /.curved-circle -->
