@@ -52,7 +52,25 @@
                     <div class="footer-widget footer-widget__open-hrs">
                         <h3 class="footer-widget__title">工作時間</h3><!-- /.footer-widget__title -->
                         <p>星期一至五: 9.00 AM–5.30 PM <br>
-                            
+                        <div style="height: 100px;">
+                            <ul id="buttons" class="d-flex flex-wrap social-media-container">
+                                <li class="fb">
+                                    <a href="https://www.facebook.com/MalaysianChineseMuseum" title="Facebook" target="_blank">
+                                    <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="in">
+                                    <a href="https://www.instagram.com/malaysianchinesemuseum/" title="Instagram" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="wa">
+                                    <a href="#" title="WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div><!-- /.footer-widget -->
                 </div><!-- /.col-lg-3 -->
             </div><!-- /.row -->
