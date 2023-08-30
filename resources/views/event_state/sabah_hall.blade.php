@@ -109,12 +109,14 @@
     </div><!-- /.col-lg-4 col-md-6 -->
     <div class="col-12">
         <div class="text-center d-flex justify-content-center align-items-center">
-            <div class="more-post__block">
+            <!-- <div class="more-post__block">
                 <a class="more-post__link" href="#">
                     更多
                     <span class="curved-circle">View More &nbsp;&emsp;View More &nbsp;&emsp;View More View More View More &nbsp;&emsp;View &nbsp;&emsp; </span>
-                    <!-- /.curved-circle -->
                 </a>
+            </div> -->
+            <div class="more-post__block">
+                <a class="butn butn__new" href="#">更多</a>
             </div>
         </div><!-- /.text-center -->
     </div>

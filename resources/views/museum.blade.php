@@ -476,17 +476,110 @@
             </div><!-- /.container -->
         </section><!-- /.history-one -->
 
-        <section class="video-one text-center" style="background-image: url(assets/images/resources/video-parallax-1-1-.jpg);">
+        <!-- 华博资讯 -->
+        <div class="contact-one">
             <div class="container" style="padding-left:0px;padding:right:0px">
-                <a href="https://www.youtube.com/watch?v=hO1tzmi1V5g" class="video-popup video-one__btn"><i class="fa fa-play"></i></a><!-- /.video-popup video-one__btn -->
+                <div class="block-title-two text-center">
+                    <p style="font-size: 44px;">华博资讯</p>
+                </div><!-- /.block-title-two -->
+                <div class="row">
+                    <div class="col-lg-6 mb-5">
+                        <div class="contact-one__box">
+                            <h3>开馆时间</h3>
+                            <p>每周星期四-星期日: 上午10时-下午5时 <br> 
+                            公共假期: 上午10时-下午5时 <br> 
+                            (售票时间至下午4时为止)</p>
+                        </div>
+                        <div class="contact-one__box mt-3">
+                            <table class="table table-bordered table-sm bg-light">
+                                <thead>
+                                    <tr>
+                                        <th>入门票</th>
+                                        <th>票价</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>普通</td>
+                                        <td>RM20</td>
+                                    </tr>
+                                    <tr>
+                                        <td>*65岁及以上者 / *OKU</td>
+                                        <td>RM10</td>
+                                    </tr>
+                                    <tr>
+                                        <td>*学生 / 小孩</td>
+                                        <td>RM5</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>*需出示有效证件，如：身份证 / 驾驶执照 / 护照</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-5">
+                        <div class="contact-one__box">
+                            <h3>联络</h3>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 10%" class="py-2"><img src="{{ asset('assets/images/museum/icon_info/WhatsApp.png') }}" alt="WhatsApp" style="width:30px;"></td>
+                                        <td class="py-2">+6011-5506 5341</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-2"><img src="{{ asset('assets/images/museum/icon_info/Email.png') }}" alt="Email" style="width:30px;"></td>
+                                        <td class="py-2">malaysianchinesemuseum@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-2"><img src="{{ asset('assets/images/museum/icon_info/Global.png') }}" alt="Global" style="width:30px;"></td>
+                                        <td class="py-2">malaysianchinesemuseum.wordpress.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-2"><img src="{{ asset('assets/images/museum/icon_info/Facebook.png') }}" alt="Facebook" style="width:30px;"></td>
+                                        <td class="py-2">facebook.com/MalaysianChineseMuseum</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-2"><img src="{{ asset('assets/images/museum/icon_info/Instagram.png') }}" alt="Instagram" style="width:30px;"></td>
+                                        <td class="py-2">instagram.com/malaysianchinesemuseum</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="py-2 align-top"><img src="{{ asset('assets/images/museum/icon_info/Location.png') }}" alt="Location" style="width:30px;"></td>
+                                        <td class="py-2">Wisma Huazong, Lot 15285, 0.7KM Lebuhraya Sungai Besi, 43300 Seri Kembangan, Selangor.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 mb-5">
+                        <div class="contact-one__box">
+                            <h3>参观须知</h3>
+                            <ol type="1">
+                                <li>所有访客需购票入馆。</li>
+                                <li>请在参观的过程中，将您的手机调至为振动或静音模式，并小声说话，禁止喧闹。</li>
+                                <li>禁止在博物馆内饮食。</li>
+                                <li>请勿触摸任何展览物品，请勿坐在展柜或靠在墙壁上歇息。</li>
+                                <li>禁止在馆内奔跑、跳跃、破坏或做其他有害的行为。请注意，若您造成任何损坏，您必须对该行为负责，赔偿损失并承担相应的法律责任。</li>
+                                <li>禁止在博物馆内吸烟。</li>
+                                <li>请勿在博物馆内使用闪光灯、补光器材或设置三脚架拍摄。若要进行任何商业性拍摄、课业性拍摄、电影或其他，必须事先向博物馆提出申请。</li>
+                                <li>若博物馆工作人员认为您的举止可能已对他人造成危险或干扰，您将被要求离开博物馆或禁止参观博物馆。</li>
+                            </ol>
+                        </div>
+                        
+                    </div><!-- /.col-lg-8 -->
+                </div><!-- /.row -->
             </div><!-- /.container -->
-        </section><!-- /.video-one -->
-        <section class="team-one">
+        </div><!-- /.contact-one -->
+        <!-- <section class="video-one text-center" style="background-image: url(assets/images/resources/video-parallax-1-1-.jpg);">
+            <div class="container" style="padding-left:0px;padding:right:0px">
+                <a href="https://www.youtube.com/watch?v=hO1tzmi1V5g" class="video-popup video-one__btn"><i class="fa fa-play"></i></a>
+            </div>
+        </section> -->
+        <!-- <section class="team-one">
             <div class="container" style="padding-left:0px;padding:right:0px">
                 <div class="block-title-two text-center">
                     <p>Our Team</p>
                     <h3>Expert Members</h3>
-                </div><!-- /.block-title-two -->
+                </div>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="team-one__single">
@@ -497,14 +590,14 @@
                                     <a href="#" class="fab fa-twitter"></a>
                                     <a href="#" class="fab fa-linkedin-in"></a>
                                     <a href="#" class="fab fa-google-plus-g"></a>
-                                </div><!-- /.team-one__social -->
-                            </div><!-- /.team-one__image -->
+                                </div>
+                            </div>
                             <div class="team-one__content">
                                 <h3>Violet Jones</h3>
                                 <p>Developer</p>
-                            </div><!-- /.team-one__content -->
-                        </div><!-- /.team-one__single -->
-                    </div><!-- /.col-lg-4 -->
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
@@ -514,15 +607,15 @@
                                     <a href="#" class="fab fa-twitter"></a>
                                     <a href="#" class="fab fa-linkedin-in"></a>
                                     <a href="#" class="fab fa-google-plus-g"></a>
-                                </div><!-- /.team-one__social -->
-                            </div><!-- /.team-one__image -->
+                                </div>
+                            </div>
                             <div class="team-one__content">
                                 <h3>Sarah Boyd</h3>
                                 <p>Developer</p>
-                            </div><!-- /.team-one__content -->
+                            </div>
 
-                        </div><!-- /.team-one__single -->
-                    </div><!-- /.col-lg-4 -->
+                        </div>
+                    </div>
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
@@ -532,19 +625,19 @@
                                     <a href="#" class="fab fa-twitter"></a>
                                     <a href="#" class="fab fa-linkedin-in"></a>
                                     <a href="#" class="fab fa-google-plus-g"></a>
-                                </div><!-- /.team-one__social -->
-                            </div><!-- /.team-one__image -->
+                                </div>
+                            </div>
                             <div class="team-one__content">
                                 <h3>Marguerite Holt</h3>
                                 <p>Developer</p>
-                            </div><!-- /.team-one__content -->
+                            </div>
 
-                        </div><!-- /.team-one__single -->
-                    </div><!-- /.col-lg-4 -->
+                        </div>
+                    </div>
 
-                </div><!-- /.row -->
-            </div><!-- /.container -->
-        </section><!-- /.team-one -->
+                </div>
+            </div>
+        </section> -->
 
         
         @include('layouts.footer')
