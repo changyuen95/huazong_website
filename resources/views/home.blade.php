@@ -221,99 +221,173 @@
         <div class="collection-one__carousel thm__owl-carousel owl-theme owl-carousel" data-options='{"loop": true, "autoplay": true, "autoplayTimeout": 5000, "autoplayHoverPause": true, "smartSpeed": 700, "items": 3, "margin": 100, "dots": false, "nav": false, "responsive": { "0": { "items": 1, "margin": 0 }, "625": { "items": 2, "margin": 30 }, "767": { "items": 2, "margin": 30 }, "991": { "items": 2, "margin": 30},  "1199": { "margin": 30, "items": 3}, "1366": { "margin": 50, "items": 3 }, "1440": { "margin": 50, "items": 3 }, "1750": { "items": 3, "margin": 70 }, "1920": { "items": 3, "margin": 100 } }}'>
             <div class="item">
                 <div class="collection-one__single">
-                    <img class="team-img" src="/assets/images/team/perlis-logo.png"  alt="">
+                    <img class="team-img" src="/assets/images/team/perlis-logo.png"  alt="perlis-logo" style="border-radius: 25px;">
                     <div class="collection-one__content">
-                        <h3><a href="/comming_soon">玻璃市州華人大會堂</a></h3>
+                        <!-- <h3><a href="/comming_soon">玻璃市州華人大會堂</a></h3> -->
+                        <h3>
+                            <a href="/comming_soon"></a>
+                            <p style="font-size: 22px;">玻璃市州</p>
+                            <p style="font-size: 22px;">華人大會堂</p>
+                        </h3>
                     </div><!-- /.collection-one__content -->
                 </div><!-- /.collection-one__single -->
             </div><!-- /.item -->
             <div class="item">
                 <div class="collection-one__single">
-                    <img class="team-img" src="/assets/images/team/kedah-logo.png" alt="">
+                    <img class="team-img" src="/assets/images/team/kedah-logo.png" alt="kedah-logo" style="border-radius: 25px;">
                     <div class="collection-one__content">
-                        <h3><a href="/comming_soon">吉打州華人大會堂</a></h3>
+                        <!-- <h3><a href="/comming_soon">吉打州華人大會堂</a></h3> -->
+                        <h3>
+                            <a href="/comming_soon"></a>
+                            <p style="font-size: 22px;">吉打州</p>
+                            <p style="font-size: 22px;">華人大會堂</p>
+                        </h3>
                     </div><!-- /.collection-one__content -->
                 </div><!-- /.collection-one__single -->
             </div><!-- /.item -->
             <div class="item">
                 <div class="collection-one__single">
-                    <img class="team-img" src="/assets/images/team/penang-logo.png" alt="">
+                    <img class="team-img" src="/assets/images/team/penang-logo.png" alt="penang-logo" style="border-radius: 25px;">
                     <div class="collection-one__content">
-                        <h3><a href="/comming_soon">檳州華人大會堂</a></h3>
+                        <!-- <h3><a href="/comming_soon">檳州華人大會堂</a></h3> -->
+                        <h3>
+                            <a href="/comming_soon"></a>
+                            <p style="font-size: 22px;">檳州</p>
+                            <p style="font-size: 22px;">華人大會堂</p>
+                        </h3>
                     </div><!-- /.collection-one__content -->
                 </div><!-- /.collection-one__single -->
             </div><!-- /.item -->
             <div class="item">
                 <div class="collection-one__single">
-                    <img class="team-img" src="/assets/images/team/perak-logo.png" alt="">
+                    <img class="team-img" src="/assets/images/team/perak-logo.png" alt="perak-logo" style="border-radius: 25px;">
                     <div class="collection-one__content">
-                        <h3><a href="/comming_soon">霹靂中華大會堂</a></h3>
+                        <!-- <h3><a href="/comming_soon">霹靂中華大會堂</a></h3> -->
+                        <h3>
+                            <a href="/comming_soon"></a>
+                            <p style="font-size: 22px;">霹靂</p>
+                            <p style="font-size: 22px;">中華大會堂</p>
+                        </h3>
                     </div><!-- /.collection-one__content -->
                 </div><!-- /.collection-one__single -->
             </div><!-- /.item -->
             <div class="item">
                 <div class="collection-one__single">
-                    <img class="team-img" src="/assets/images/team/pahang-logo.png" alt="">
+                    <img class="team-img" src="/assets/images/team/pahang-logo.png" alt="pahang-logo" style="border-radius: 25px;">
                     <div class="collection-one__content">
-                        <h3><a href="/comming_soon">彭亨华人大会堂</a></h3>
+                        <!-- <h3><a href="/comming_soon">彭亨华人大会堂</a></h3> -->
+                        <h3>
+                            <a href="/comming_soon"></a>
+                            <p style="font-size: 22px;">彭亨</p>
+                            <p style="font-size: 22px;">华人大会堂</p>
+                        </h3>
                     </div><!-- /.collection-one__content -->
                 </div><!-- /.collection-one__single -->
             </div><!-- /.item -->
             <div class="item">
                 <div class="collection-one__single">
-                    <img class="team-img" src="/assets/images/team/sl-logo.png" alt="">
+                    <img class="team-img" src="/assets/images/team/sl-logo.png" alt="sl-logo" style="border-radius: 25px;">
                     <div class="collection-one__content">
-                        <h3><a href="/comming_soon">吉隆坡暨雪蘭莪中華大會堂</a></h3>
+                        <!-- <h3><a href="/comming_soon">吉隆坡暨雪蘭莪中華大會堂</a></h3> -->
+                        <h3>
+                            <a href="/comming_soon"></a>
+                            <p style="font-size: 22px;">吉隆坡暨雪蘭莪</p>
+                            <p style="font-size: 22px;">中華大會堂</p>
+                        </h3>
                     </div><!-- /.collection-one__content -->
                 </div><!-- /.collection-one__single -->
             </div><!-- /.item -->
 
             <div class="item">
                 <div class="collection-one__single">
-                    <img class="team-img" src="/assets/images/team/ns-logo.png" alt="">
+                    <img class="team-img" src="/assets/images/team/ns-logo.png" alt="ns-logo" style="border-radius: 25px;">
                     <div class="collection-one__content">
-                        <h3><a href="/comming_soon">森美蘭中華大會堂</a></h3>
+                        <!-- <h3><a href="/comming_soon">森美蘭中華大會堂</a></h3> -->
+                        <h3>
+                            <a href="/comming_soon"></a>
+                            <p style="font-size: 22px;">森美蘭</p>
+                            <p style="font-size: 22px;">中華大會堂</p>
+                        </h3>
+                    </div><!-- /.collection-one__content -->
+                </div><!-- /.collection-one__single -->
+            </div><!-- /.item -->
+
+            <div class="item">
+                <div class="collection-one__single">
+                    <img class="team-img" src="/assets/images/team/melaka-logo.png" alt="melaka-logo" style="border-radius: 25px;">
+                    <div class="collection-one__content">
+                        <!-- <h3><a href="/comming_soon">马六甲中华大会堂</a></h3> -->
+                        <h3>
+                            <a href="/comming_soon"></a>
+                            <p style="font-size: 22px;">马六甲</p>
+                            <p style="font-size: 22px;">中華大會堂</p>
+                        </h3>
                     </div><!-- /.collection-one__content -->
                 </div><!-- /.collection-one__single -->
             </div><!-- /.item -->
         
             <div class="item">
                 <div class="collection-one__single">
-                    <img class="team-img" src="/assets/images/team/johor-logo.png" alt="">
+                    <img class="team-img" src="/assets/images/team/johor-logo.png" alt="johor-logo" style="border-radius: 25px;">
                     <div class="collection-one__content">
-                        <h3><a href="/comming_soon">柔佛州中華總會</a></h3>
+                        <!-- <h3><a href="/comming_soon">柔佛州中華總會</a></h3> -->
+                        <h3>
+                            <a href="/comming_soon"></a>
+                            <p style="font-size: 22px;">柔佛州</p>
+                            <p style="font-size: 22px;">中華總會</p>
+                        </h3>
                     </div><!-- /.collection-one__content -->
                 </div><!-- /.collection-one__single -->
             </div><!-- /.item -->
             <div class="item">
                 <div class="collection-one__single">
-                    <img class="team-img" src="/assets/images/team/kelantan-logo.png" alt="">
+                    <img class="team-img" src="/assets/images/team/kelantan-logo.png" alt="kelantan-logo" style="border-radius: 25px;">
                     <div class="collection-one__content">
-                        <h3><a href="/comming_soon">吉蘭丹中華大會堂</a></h3>
+                        <!-- <h3><a href="/comming_soon">吉蘭丹中華大會堂</a></h3> -->
+                        <h3>
+                            <a href="/comming_soon"></a>
+                            <p style="font-size: 22px;">吉蘭丹</p>
+                            <p style="font-size: 22px;">中華大會堂</p>
+                        </h3>
                     </div><!-- /.collection-one__content -->
                 </div><!-- /.collection-one__single -->
             </div><!-- /.item -->
             <div class="item">
                 <div class="collection-one__single">
-                    <img class="team-img" src="/assets/images/team/terenganu-logo.png" alt="">
+                    <img class="team-img" src="/assets/images/team/terenganu-logo.png" alt="terenganu-logo" style="border-radius: 25px;">
                     <div class="collection-one__content">
-                        <h3><a href="/comming_soon">登嘉樓中華大會堂</a></h3>
+                        <!-- <h3><a href="/comming_soon">登嘉樓中華大會堂</a></h3> -->
+                        <h3>
+                            <a href="/comming_soon"></a>
+                            <p style="font-size: 22px;">登嘉樓</p>
+                            <p style="font-size: 22px;">中華大會堂</p>
+                        </h3>
                     </div><!-- /.collection-one__content -->
                 </div><!-- /.collection-one__single -->
             </div><!-- /.item -->
             <div class="item">
                 <div class="collection-one__single">
-                    <img class="team-img" src="/assets/images/team/sabah-logo.png" alt="">
+                    <img class="team-img" src="/assets/images/team/sabah-logo.png" alt="sabah-logo" style="border-radius: 25px;">
                     <div class="collection-one__content">
-                        <h3><a href="/comming_soon">沙巴中華大會堂</a></h3>
+                        <!-- <h3><a href="/comming_soon">沙巴中華大會堂</a></h3> -->
+                        <h3>
+                            <a href="/comming_soon"></a>
+                            <p style="font-size: 22px;">沙巴</p>
+                            <p style="font-size: 22px;">中華大會堂</p>
+                        </h3>
                     </div><!-- /.collection-one__content -->
                 </div><!-- /.collection-one__single -->
             </div><!-- /.item -->
             <div class="item">
                 <div class="collection-one__single">
-                    <img class="team-img" src="/assets/images/team/sarawak-logo.png" alt="">
+                    <img class="team-img" src="/assets/images/team/sarawak-logo.png" alt="sarawak-logo" style="border-radius: 25px;">
                     <div class="collection-one__content">
-                        <h3><a href="/comming_soon">砂拉越華人社團聯合總會</a></h3>
+                        <!-- <h3><a href="/comming_soon">砂拉越華人社團聯合總會</a></h3> -->
+                        <h3>
+                            <a href="/comming_soon"></a>
+                            <p style="font-size: 22px;">砂拉越</p>
+                            <p style="font-size: 22px;">華人社團聯合總會</p>
+                        </h3>
                     </div><!-- /.collection-one__content -->
                 </div><!-- /.collection-one__single -->
             </div><!-- /.item -->

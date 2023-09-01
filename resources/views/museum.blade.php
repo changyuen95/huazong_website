@@ -307,7 +307,7 @@
                 <div class="history-one__single">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="history-one__image wow fadeInRight" data-wow-duration="1500ms">
+                            <div class="history-one__image wow fadeInLeft" data-wow-duration="1500ms">
                                 <img src="assets/images/museum/fig15.png" alt="">
                             </div><!-- /.history-one__image -->
                         </div><!-- /.col-lg-6 -->
@@ -345,7 +345,7 @@
                 <div class="history-one__single">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="history-one__image wow fadeInRight" data-wow-duration="1500ms">
+                            <div class="history-one__image wow fadeInLeft" data-wow-duration="1500ms">
                                 <img src="assets/images/museum/fig17.png" alt="">
                             </div><!-- /.history-one__image -->
                         </div><!-- /.col-lg-6 -->
@@ -383,7 +383,7 @@
                 <div class="history-one__single">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="history-one__image wow fadeInRight" data-wow-duration="1500ms">
+                            <div class="history-one__image wow fadeInLeft" data-wow-duration="1500ms">
                                 <img src="assets/images/museum/fig19.png" alt="">
                             </div><!-- /.history-one__image -->
                         </div><!-- /.col-lg-6 -->
@@ -421,7 +421,7 @@
                 <div class="history-one__single">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="history-one__image wow fadeInRight" data-wow-duration="1500ms">
+                            <div class="history-one__image wow fadeInLeft" data-wow-duration="1500ms">
                                 <img src="assets/images/museum/fig21.png" alt="">
                             </div><!-- /.history-one__image -->
                         </div><!-- /.col-lg-6 -->
@@ -458,7 +458,7 @@
                 <div class="history-one__single">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="history-one__image wow fadeInRight" data-wow-duration="1500ms">
+                            <div class="history-one__image wow fadeInLeft" data-wow-duration="1500ms">
                                 <img src="assets/images/museum/fig23.png" alt="">
                             </div><!-- /.history-one__image -->
                         </div><!-- /.col-lg-6 -->
@@ -527,19 +527,19 @@
                                     </tr>
                                     <tr>
                                         <td class="py-2"><img src="{{ asset('assets/images/museum/icon_info/Email.png') }}" alt="Email" style="width:30px;"></td>
-                                        <td class="py-2">malaysianchinesemuseum@gmail.com</td>
+                                        <td class="py-2"><a href="mailto:malaysianchinesemuseum@gmail.com?subject=museum info" class="text-decoration-none" style="color: #555555">malaysianchinesemuseum@gmail.com</a></td>
                                     </tr>
                                     <tr>
                                         <td class="py-2"><img src="{{ asset('assets/images/museum/icon_info/Global.png') }}" alt="Global" style="width:30px;"></td>
-                                        <td class="py-2">malaysianchinesemuseum.wordpress.com</td>
+                                        <td class="py-2"><a target="_blank" href="https://malaysianchinesemuseum.wordpress.com" class="text-decoration-none" style="color: #555555">malaysianchinesemuseum.wordpress.com</a></td>
                                     </tr>
                                     <tr>
                                         <td class="py-2"><img src="{{ asset('assets/images/museum/icon_info/Facebook.png') }}" alt="Facebook" style="width:30px;"></td>
-                                        <td class="py-2">facebook.com/MalaysianChineseMuseum</td>
+                                        <td class="py-2"><a target="_blank" href="https://facebook.com/MalaysianChineseMuseum" class="text-decoration-none" style="color: #555555">facebook.com/MalaysianChineseMuseum</a></td>
                                     </tr>
                                     <tr>
                                         <td class="py-2"><img src="{{ asset('assets/images/museum/icon_info/Instagram.png') }}" alt="Instagram" style="width:30px;"></td>
-                                        <td class="py-2">instagram.com/malaysianchinesemuseum</td>
+                                        <td class="py-2"><a target="_blank" href="https://instagram.com/malaysianchinesemuseum" class="text-decoration-none" style="color: #555555">instagram.com/malaysianchinesemuseum</a></td>
                                     </tr>
                                     <tr>
                                         <td class="py-2 align-top"><img src="{{ asset('assets/images/museum/icon_info/Location.png') }}" alt="Location" style="width:30px;"></td>
