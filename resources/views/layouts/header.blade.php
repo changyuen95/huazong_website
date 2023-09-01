@@ -103,9 +103,10 @@
                             <li><a href="news-details.html">News Details</a></li>
                         </ul>
                     </li> -->
-                    <li><a href="/comming_soon">教育基金</a></li>
-                    <li><a href="/comming_soon">华人博物馆</a></li>
-                    <li><a href="/comming_soon">联络我们</a></li>
+                    <li><a href="/team">华总发起人</a></li>
+                    <li><a href="/education-fund">教育基金</a></li>
+                    <li><a href="/museum">华人博物馆</a></li>
+                    <li><a href="/contact_us">联络我们</a></li>
                 </ul><!-- /.main-nav__navigation-box -->
             </div><!-- /.main-nav__main-navigation -->
             <!-- <div class="main-nav__right">
