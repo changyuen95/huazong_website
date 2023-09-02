@@ -55,12 +55,12 @@
                         <div style="height: 100px;">
                             <ul id="buttons" class="d-flex flex-wrap social-media-container">
                                 <li class="fb">
-                                    <a href="https://www.facebook.com/MalaysianChineseMuseum" title="Facebook" target="_blank">
+                                    <a href="https://www.facebook.com/huazongmy" title="Facebook" target="_blank">
                                     <i class="fab fa-facebook-f"></i>
                                     </a>
                                 </li>
                                 <li class="in">
-                                    <a href="https://www.instagram.com/malaysianchinesemuseum/" title="Instagram" target="_blank">
+                                    <a href="https://www.instagram.com/dama_huazong_official/" title="Instagram" target="_blank">
                                     <i class="fab fa-instagram"></i>
                                     </a>
                                 </li>

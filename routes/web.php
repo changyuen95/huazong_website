@@ -36,6 +36,10 @@ Route::get('museum', function(){
     return view('museum');
 });
 
+Route::get('team', function(){
+    return view('team');
+});
+
 Route::get('education-fund', function(){
     return view('education_fund');
 });
