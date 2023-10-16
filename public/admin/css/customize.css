@@ -1,0 +1,210 @@
+.library_style iframe {
+    height: 120px !important;
+}
+.card-body .form-group  iframe {
+    height: 300px !important;
+}
+.datepicker {
+    top: 170px !important;
+}
+
+#example.table img {
+    max-width: 50px;
+    padding-bottom: 20px;
+    display: block;
+}
+#example.table .trigger-modal img {
+    max-width: 100%;
+    padding-bottom: 0;
+
+}
+.trigger-modal {
+    cursor: pointer;
+    color: white;
+}
+
+.bg-navy{
+    background-color: #001f3f;
+}
+
+
+.text-navy{
+    background-color: transparent;
+    color: #001f3f;
+}
+
+.text-navy:hover{
+    text-decoration: underline;
+    color: #001f3f;
+}
+
+
+.btn-theme, .btn-theme:hover{
+    background-color: #38428E;
+    border-color: #38428E;
+    color: #fff;
+    box-shadow: none;
+}
+
+
+.btn-navy, .btn-navy:hover{
+    background-color: #001f3f;
+    border-color: #001f3f;
+    color: #fff;
+    box-shadow: none;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #001f3f;
+}
+
+.nav-pills .nav-link:not(.active):hover {
+    color: #001f3f;
+}
+
+@media screen and (max-width: 767px){
+    div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate {
+        text-align: right !important;
+    }
+}
+
+.btn-copy-link {
+    color: #007bff;
+}
+
+.btn-copy-link .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 50px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.btn-copy-link .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.btn-copy-link:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.participant-list li .bg-navy.btn.active,
+.participant-list li .bg-navy.btn:not(:disabled):not(.disabled).active,
+.participant-list li a:hover {
+    background-color: #5bc0de !important;
+    border-color: #46b8da !important;
+}
+
+@media(max-width:768px) {
+    .responsive-logo{
+        display: none;
+    }
+
+}
+
+.like-link:hover, .comment-link:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-resubmit-comment:hover {
+    color: #5bc0de;
+}
+
+.btn-edit-comment:hover {
+    color: #28a745;
+}
+
+.btn-delete-comment:hover {
+    color: #dc3545;
+}
+.btn-comment {
+    color: #fff;
+    background-color: #262261;
+    border-color: #262261;
+    border-radius: 20px;
+    padding: 0.1em 1.2em;
+    font-weight: 600;
+}
+
+.btn-comment:hover {
+    background-color: #262261;
+    border-color: #262261;
+}
+
+
+.bootstrap-tagsinput {
+    width: 100%;
+}
+
+ .bootstrap-tagsinput {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    display: inline-block;
+    padding: 4px 6px;
+    color: #555;
+    vertical-align: middle;
+    border-radius: 4px;
+    max-width: 100%;
+    line-height: 22px;
+    cursor: text;
+  }
+  .bootstrap-tagsinput input {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0 6px;
+    margin: 0;
+    width: auto;
+    max-width: inherit;
+  }
+  .bootstrap-tagsinput.form-control input::-moz-placeholder {
+    color: #777;
+    opacity: 1;
+  }
+  .bootstrap-tagsinput.form-control input:-ms-input-placeholder {
+    color: #777;
+  }
+  .bootstrap-tagsinput.form-control input::-webkit-input-placeholder {
+    color: #777;
+  }
+  .bootstrap-tagsinput input:focus {
+    border: none;
+    box-shadow: none;
+  }
+  .bootstrap-tagsinput .tag {
+    margin-right: 2px;
+    color: white;
+  }
+  .bootstrap-tagsinput .tag [data-role="remove"] {
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  .bootstrap-tagsinput .tag [data-role="remove"]:after {
+    content: "x";
+    padding: 0px 2px;
+  }
+  .bootstrap-tagsinput .tag [data-role="remove"]:hover {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+  .bootstrap-tagsinput .tag [data-role="remove"]:hover:active {
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  }
