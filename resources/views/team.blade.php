@@ -14,7 +14,7 @@
                 <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/1.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/1.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -30,7 +30,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/2.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/2.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -46,7 +46,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/3.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/3.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -62,7 +62,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/4.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/4.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -78,7 +78,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/5.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/5.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -94,7 +94,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/6.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/6.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -110,7 +110,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/7.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/7.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -126,7 +126,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/8.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/8.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -142,7 +142,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/9.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/9.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -158,7 +158,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/10.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/10.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -174,7 +174,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/11.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/11.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -190,7 +190,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/12.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/12.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -206,7 +206,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/13.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/13.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -222,7 +222,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/14.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/14.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -238,7 +238,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/15.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/15.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -254,7 +254,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/16.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/16.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -270,7 +270,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/17.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/17.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -286,7 +286,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/18.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/18.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -302,7 +302,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/19.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/19.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -318,7 +318,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/20.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/20.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -334,7 +334,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/21.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/21.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -350,7 +350,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/22.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/22.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -366,7 +366,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/23.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/23.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -382,7 +382,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/24.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/24.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -398,7 +398,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/25.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/25.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -414,7 +414,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/26.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/26.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -430,7 +430,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/27.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/27.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -446,7 +446,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/28.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/28.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -462,7 +462,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/29.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/29.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -478,7 +478,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/30.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/30.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -494,7 +494,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/31.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/31.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -510,7 +510,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/32.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/32.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -526,7 +526,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/33.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/33.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -542,7 +542,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/34.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/34.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -558,7 +558,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/35.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/35.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -574,7 +574,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/36.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/36.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -590,7 +590,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/37.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/37.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -606,7 +606,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/38.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/38.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -622,7 +622,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/39.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/39.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -638,7 +638,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/40.png" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/40.png" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -654,7 +654,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/41.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/41.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -670,7 +670,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/42.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/42.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -686,7 +686,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/43.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/43.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -702,7 +702,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/44.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/44.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -718,7 +718,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/45.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/45.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -734,7 +734,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/46.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/46.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -750,7 +750,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/47.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/47.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -766,7 +766,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/48.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/48.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -782,7 +782,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/49.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/49.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -798,7 +798,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/50.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/50.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -814,7 +814,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/51.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/51.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -830,7 +830,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/52.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/52.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -846,7 +846,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/53.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/53.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -862,7 +862,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/54.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/54.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -878,7 +878,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/55.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/55.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -894,7 +894,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/56.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/56.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -910,7 +910,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/57.png" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/57.png" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -926,7 +926,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/58.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/58.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -942,7 +942,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/59.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/59.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -958,7 +958,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/60.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/60.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -974,7 +974,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/61.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/61.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -990,7 +990,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/62.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/62.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>
@@ -1007,7 +1007,7 @@
                     <div class="col-lg-4">
                         <div class="team-one__single">
                             <div class="team-one__image">
-                                <img style="max-height:20.3rem" src="assets/images/faqiren/63.jpg" alt="">
+                                <img style="max-height:20.3rem;width:20.4rem" src="assets/images/faqiren/63.jpg" alt="">
                                 <!-- <div class="team-one__social">
                                     <a href="#" class="fab fa-facebook-f"></a>
                                     <a href="#" class="fab fa-twitter"></a>

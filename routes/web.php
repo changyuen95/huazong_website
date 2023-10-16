@@ -28,8 +28,20 @@ Route::get('national-thirteen-hall', function(){
     return view('national_thirteen_halls');
 });
 
-Route::get('event-detail', function(){
+Route::get('event-detail/202307121423', function(){
     return view('event_detail');
+});
+
+Route::get('event-detail/202310081715', function(){
+    return view('event4');
+});
+
+Route::get('event-detail/202308282211', function(){
+    return view('event2');
+});
+
+Route::get('event-detail/202303081955', function(){
+    return view('event3');
 });
 
 Route::get('museum', function(){
@@ -44,6 +56,14 @@ Route::get('education-fund', function(){
     return view('education_fund');
 });
 
+Route::get('contact_us', function(){
+    return view('contact_us');
+});
+
 Route::get('/{any}', function () {
     return view('comingsoon');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -58,94 +58,84 @@
         霹雳州幅员辽阔，也是全马华人聚居最多的一州，因此作为霹州华团最高机构的霹雳中华大会堂，在负起团结各区各县的华人社团工作方面，扮演了一个重要角色。
 
 
-
         </p>
         <p class="font-weight-bold">
-        霹雳中华大会堂之旧址是位于怡保江沙路育才国民型中学的校址，当时为了华校的发展，遂将该地段作为育才中小学用途。鉴于霹雳中华大会堂之会址已充作学校，故本会办事地点曾作数迁，致迄今尚借用霹雳中华总商会大厦为办事处。
+        霹雳中华大会堂之旧址是位于怡保江沙路育才国民型中学的校址，当时为了华校的发展，遂将该地段作为育才中小学用途。鉴于霹雳中华大会堂之会址已充作学校，故本会办事地点曾作数迁。
 
         </p>
         <p class="font-weight-bold">
         霹雳中华大会堂成立已逾一甲子，虽非官方机构，但所服务的范围却包括慈善、福利、文化、教育、经济，甚至一切社会民生问题。除了关注华社事务外，也扮演着沟通华社与政府之间的桥梁，以便将华社的心声上达，并通过协商精神，促进人民与政府之间的联系与谅解。故在促进社会安宁及维护各民族和谐方面，为国家做出贡献。
-
         </p>
         <p class="font-weight-bold">
-        霹雳中华大会堂在参与堂联活动方面，向来非常积极与热心。因此，该会主席拿督张征雄局绅在曾任华总第三任会长。在推动华人节日习俗文化方面，霹雳中华大会堂每年都在中秋佳节期间举办中秋文化大游行、灯笼制作比赛、庙会、中秋文化展览会、文化大汇演等活动，以使华族之优良传统文化在本国发扬光大。
+        霹雳中华大会堂在参与堂联活动方面，向来非常积极与热心。因此，该会第六任会长丹斯里张征雄局绅在曾任华总第三任会长。
         </p>    
     </div>
 
     <!-- Table -->
     <div class="px-3">
-        <h3 class="mb-3">霹雳中华大会堂第十三届理事会(2021-2024)</h3>
+        <h3 class="mb-3">霹雳中华大会堂第十三届理事会(2022-2025)</h3>
         <div class="table-responsive">
             <table class="table table-striped">
                 <tbody style="border: 1px solid #dee2e6;">
                     <tr>
                         <td class="font-weight-bolder" style="width: 30%">会长</td>
-                        <td style="width: 70%">拿督蔡文玉</td>
+                        <td style="width: 70%">拿督关和贵</td>
                     </tr>
                     <tr>
                         <td class="font-weight-bolder">署理会长</td>
-                        <td>拿督關和贵</td>
+                        <td>张送定</td>
                     </tr>
                     <tr>
                         <td class="font-weight-bolder">副会长</td>
-                        <td>盧铭生、潘中山、张德常（霹雳中华羅漢团）</td>
+                        <td>陈德杰（霹雳福建公会）<br>梁振奋（霹雳海南会馆）<br>  梁启宗（霹雳广西会馆）<br>拿督斯里李友成<br>刘崇礼 AMP</td>
                     </tr>
                     <tr>
-                        <td class="font-weight-bolder">义务秘书</td>
-                        <td>張國榮</td>
+                        <td class="font-weight-bolder">秘书长</td>
+                        <td>（正） 余舜基 <br>（副）余德耀 <br>（副）梁淑仪</td>
                     </tr>
                     <tr>
-                        <td class="font-weight-bolder">义务财政</td>
-                        <td>陈俊杰先生</td>
-                    </tr>
-                    <tr>
-                        <td class="font-weight-bolder">副义务秘书</td>
-                        <td>劉永森（怡保中国精武体育会）</td>
-                    </tr>
-                    <tr>
-                        <td class="font-weight-bolder">副义务财政</td>
-                        <td>吳志文</td>
-                    </tr>
-                    <tr>
-                        <td class="font-weight-bolder">义务查数</td>
-                        <td>（正） 劉偉宸 <br>（副）盧天德</td>
-                    </tr>
-                    <tr>
-                        <td class="font-weight-bolder">会务组主任</td>
-                        <td>（正）何瑞麟 <br>（副）郭奕河</td>
-                    </tr>
-                    <tr>
-                        <td class="font-weight-bolder">外务组主任</td>
-                        <td>（正）劉健文（霹雳劉關张赵古城会） <br>（副）柯志辉（霹雳三江公会）</td>
-                    </tr>
-                    <tr>
-                        <td class="font-weight-bolder">文教组主任</td>
-                        <td>（正）张文義 <br>（副）丘鑑興医师（霹雳中华医院）</td>
-                    </tr>
-                    <tr>
-                        <td class="font-weight-bolder">福利组主任</td>
-                        <td>（正）劉子清（霹雳河婆同乡会） <br>（副）张锦波</td>
-                    </tr>
-                    <tr>
-                        <td class="font-weight-bolder">康乐组主任</td>
-                        <td>（正）劉锦華 <br><br>（副）陳志强</td>
-                    </tr>
-                    <tr>
-                        <td class="font-weight-bolder">纪律行动组主任</td>
-                        <td>蘇宝耀</td>
+                        <td class="font-weight-bolder">财政</td>
+                        <td>（正） 盧天德 <br>（副）盧天德</td>
                     </tr>
                     <tr>
                         <td class="font-weight-bolder">青年团团长</td>
+                        <td>苏宝耀</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bolder">妇女组主任</td>
                         <td>唐佩娟</td>
                     </tr>
                     <tr>
-                        <td class="font-weight-bolder">妇女组主席</td>
-                        <td>拿督丁胜耀、何兆荣、余舜基、余德耀、林基祥、黄雲龍、陳国强、张永康、蔡德雲、张纯雄、吳锦文、麦锦荣（霹雳顺德会馆）、馬维利（霹雳福建公会）、李志伟医师（霹雳中医中药联合会）、李汶美（霹雳金商公会）、梁振奋（霹雳海南会馆）、梁啓宗（霹雳廣西会馆）、全振光</td>
+                        <td class="font-weight-bolder">政治社会组主任</td>
+                        <td>（正） 黄云龙 <br>（副）林日强</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bolder">经济发展组主任</td>
+                        <td>（正）刘锦华 <br>（副）植旷荣</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bolder">文化体育组主任</td>
+                        <td>（正）刘永森（怡保中国精武体育会） <br>（副）张詠发</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bolder">教育培训组主任</td>
+                        <td>（正）张文义 <br>（副）黄仲贤医生（霹雳华校董事会联合会）</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bolder">福利联谊组主任</td>
+                        <td>（正）劉子清（霹雳河婆同乡会） <br>（副）黄美强</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bolder">纪律组主任</td>
+                        <td>（正）陈翊铨 <br>（副）蔡铱伦律师</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bolder">义山管理组主任</td>
+                        <td>（正） 陈瑞荣<br>（副）骆卓明</td>
                     </tr>
                     <tr>
                         <td class="font-weight-bolder">理事</td>
-                        <td>（霹雳南海会馆）、陳开力（霹雳傢俬同業公会）、王宝珠（霹雳旅店公会）、张志良（霹雳建筑商公会）、陳祖賢（霹雳树胶公会）、葉绍仲医生（霹雳福州十邑会馆）、黄宥畯（怡保互助社文化体育会）、锺啟洪（萬里望中华慈善剧社）</td>
+                        <td>曼绒中华大会堂（赵善平）、下霹雳中华公会（陈成木律师）、江沙华人大会堂（黄奕星局绅）、北霹雳华人大会堂（邓基发）、霹雳中医中药联合会（陈詠诚医师）、霹雳中华医院（丘鑑兴医师）、霹雳三江公会（袁忠议）、万里望中华慈善剧社（洪茂杰）、霹雳顺德会馆（曾少轩）、霹雳建筑商公会（张志良）、霹雳刘关张赵古城会（刘雪俪）、马中客家总商会霹雳分会（蓝金海）、霹雳韩江公会（胡耿发）、霹雳嘉应会馆（叶芳槐）、霹雳留台同学会（范宜泉）、霹雳惠州会馆（林富源）、怡保互助社文化体育会 （黄宥畯）、蔡联成有限公司（蔡如媚）、拿督许美远、拿督高利发、刘伟宸、陈志强、何兆荣、刘添祥、蔡斯东、凌泽铭、刘永隆</td>
                     </tr>
                 </tbody>
             </table>

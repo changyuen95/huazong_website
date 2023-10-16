@@ -15,7 +15,7 @@
 
     
 
-    <!-- <section class="page-header" style="background-image: url(assets/images/event-detail/bg.png); background-repeat: no-repeat;">
+    <!-- <section class="page-header" style="background-image: url(assets/images/event_detail/bg.png); background-repeat: no-repeat;">
         <div class="container" style="padding-left:0px;padding:right:0px">
             <h2>中国全国政协港澳台侨委会莅临访问华总</h2>
         </div>
@@ -33,7 +33,7 @@
                         <div class="col-lg-12">
                             <div class="blog-one__single">
                                 <div class="blog-one__image">
-                                    <img src="{{ asset('assets/images/event-detail/event-img1.png') }}" alt="">
+                                    <img src="{{ asset('assets/images/event_detail/event-img1.png') }}" alt="">
                                 </div><!-- /.blog-one__image -->
                                 <div class="blog-one__content">
                                     <ul class="blog-one__meta list-unstyled">
@@ -180,7 +180,7 @@
                             <div class="sidebar__post">
                                 <div class="sidebar__post-single">
                                     <div class="sidebar__post-image">
-                                        <img src="{{ asset('assets/images/event-detail/sub-event-img1.png') }}" alt="">
+                                        <img src="{{ asset('assets/images/event_detail/sub-event-img1.png') }}" alt="">
                                     </div><!-- /.sidebar__post-image -->
                                     <div class="sidebar__post-content">
                                         <a class="sidebar__post-date" style="color: #EB1757;" href="#">

@@ -2592,7 +2592,7 @@ a:focus {
 	margin: 0;
 	font-size: 16px;
 	line-height: 28px;
-	color: #848484;
+	color: #000000;
 	margin-bottom: 10px;
 }
 
@@ -3372,7 +3372,7 @@ a:focus {
 
 .event-three__content p {
 	margin: 0;
-	color: #848484;
+	color: #0f0b0b;
 	font-size: 16px;
 	display: -webkit-box;
 	display: flex;

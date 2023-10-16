@@ -64,11 +64,11 @@
                                     <i class="fab fa-instagram"></i>
                                     </a>
                                 </li>
-                                <li class="wa">
+                                <!-- <li class="wa">
                                     <a href="#" title="WhatsApp">
                                     <i class="fab fa-whatsapp"></i>
                                     </a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div><!-- /.footer-widget -->

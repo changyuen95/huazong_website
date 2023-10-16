@@ -7,6 +7,46 @@
 <!-- Banner Section -->
 <section class="banner-section">
     <div class="banner-carousel thm__owl-carousel owl-theme owl-carousel" data-options='{"loop": true, "items": 1, "margin": 0, "dots": false, "nav": true, "animateOut": &quot;fadeOut&quot;, "animateIn": &quot;fadeIn&quot;, "active": true, "smartSpeed": 1000, "autoplay": true, "autoplayTimeout": 6000, "autoplayHoverPause": false}'>
+        
+     <!-- Slide Item  -->
+     <div class="slide-item">
+            <div class="image-layer lazy-image" style="background-image: url('assets/images/hz-bg-2.jpg');"></div>
+
+            <div class="container" style="padding-left:0px;padding:right:0px">
+                <div class="content-box text-center">
+                    <h3></h3>
+                    <h2>第38届全国华人文化节之大汇演/闭幕典礼</h2>
+                    <div class="btn-box"><a href="/event-detail/202310081715" class="thm-btn btn-style-one">查看更多</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide Item  -->
+        <div class="slide-item">
+            <div class="image-layer lazy-image" style="background-image: url('assets/images/hz-bg-3.jpg');"></div>
+
+            <div class="container" style="padding-left:0px;padding:right:0px">
+                <div class="content-box text-center">
+                    <h3></h3>
+                    <h2 style="height:70px"></h2>
+                    <div class="btn-box"><a href="/event-detail/202310081715" class="thm-btn btn-style-one">查看更多</a></div>
+                </div>
+            </div>
+        </div>
+
+         <!-- Slide Item  -->
+         <div class="slide-item">
+            <div class="image-layer lazy-image" style="background-image: url('assets/images/hz-bg-1.jpg');"></div>
+
+            <div class="container" style="padding-left:0px;padding:right:0px">
+                <div class="content-box text-center">
+                    <h3></h3>
+                    <h2 style="height:70px"></h2>
+                    <div class="btn-box"><a href="/event-detail/202310081715" class="thm-btn btn-style-one">查看更多</a></div>
+                </div>
+            </div>
+        </div>
+
         <!-- Slide Item -->
         <div class="slide-item">
             <div class="image-layer lazy-image" style="background-image: url('assets/images/slide1.jpg');"></div>
@@ -21,19 +61,7 @@
             </div>
         </div>
 
-        <!-- Slide Item  -->
-        <!-- <div class="slide-item">
-            <div class="image-layer lazy-image" style="background-image: url('assets/images/main-slider/2.jpg');"></div>
-
-            <div class="container" style="padding-left:0px;padding:right:0px">
-                <div class="content-box text-center">
-                    <h3></h3>
-                    <h2>华总启用全新网站资讯  统称大马华总</h2>
-                    <div class="btn-box"><a href="https://www.facebook.com/huazongmy" class="thm-btn btn-style-one">Learn
-                            More</a></div>
-                </div>
-            </div>
-        </div> -->
+       
 
         <!-- Slide Item -->
         <!-- <div class="slide-item">
@@ -43,8 +71,7 @@
                 <div class="content-box text-center">
                     <h3>Opening On Sat. Oct 20, 2019</h3>
                     <h2>World’s Leading Museum of History <br> Over 2.3 k Collection</h2>
-                    <div class="btn-box"><a href="#" class="thm-btn btn-style-one">Learn
-                            More</a></div>
+                    <div class="btn-box"><a href="#" class="thm-btn btn-style-one">查看更多</a></div>
                 </div>
             </div>
         </div> -->
@@ -435,30 +462,76 @@
                 <h3>最新活动</h3>
             </div><!-- /.block-title-two -->
             <div class="row">
-                <div class="col-lg-12">
+
+            <div class="col-lg-12">
                     <div class="event-one__single">
                         <div class="event-one__image">
                             <div class="event-one__date">
-                                <span>31</span>
+                                <span>8</span>
                                 Oct
                             </div><!-- /.event-one__date -->
                             <div class="event-one__image-box">
                                 <div class="event-one__image-inner">
-                                    <img src="{{ asset('assets/images/event_detail/event-image1.png') }}" alt="" style="width: 159px; height:159px;">
+                                    <img src="{{ asset('assets/images/hz-bg-1.jpg') }}" alt="" style="width: 159px; height:159px;">
                                 </div><!-- /.event-one__image-inner -->
                             </div><!-- /.event-one__image-box -->
                         </div><!-- /.event-one__image -->
                         <div class="event-one__content">
-                            <h3 style="font-size: 16px;"><a style="width: 500px;" href="/event-detail">2023年东盟美食节将于9月19日至10月10日在中国上海国家会展中心盛大举行</a></h3>
-                            <p>马中商务理事会联办上海东盟美食节　吴添泉冀我国商家响应参与</p>
+                            <h3 style="font-size: 16px;"><a style="width: 500px;" href="/event-detail/202310081715">第三十八届全国华人文化节</a></h3>
+                            <p>第三天节目流程表 Day 3 Programme</p>
                         </div><!-- /.event-one__content -->
                         <div class="event-one__btn-block">
-                            <a href="/event-detail" class="thm-btn event-one__btn" style="border-radius: 10px;">阅读更多</a>
+                            <a href="/event-detail/202310081715" class="thm-btn event-one__btn" style="border-radius: 10px;">阅读更多</a>
                         </div><!-- /.event-one__btn-block -->
                     </div><!-- /.event-one__single -->
                 </div><!-- /.col-lg-12 -->
-              
-                
+
+                <div class="col-lg-12">
+                    <div class="event-one__single">
+                        <div class="event-one__image">
+                            <div class="event-one__date">
+                                <span>28</span>
+                                AUG
+                            </div><!-- /.event-one__date -->
+                            <div class="event-one__image-box">
+                                <div class="event-one__image-inner">
+                                    <img src="{{ asset('assets/images/activity/event2.png') }}" alt="" style="width: 159px; height:159px;">
+                                </div><!-- /.event-one__image-inner -->
+                            </div><!-- /.event-one__image-box -->
+                        </div><!-- /.event-one__image -->
+                        <div class="event-one__content">
+                            <h3 style="font-size: 16px;"><a style="width: 500px;" href="/event-detail/202308282211">华总与迈沃集团签备忘录　推动大马金融变革</a></h3>
+                            <p>华总精英智库委员会与迈沃集团旗下的WOWNations，今日签署合作备忘录，以推动我国金融领域的变革......</p>
+                        </div><!-- /.event-one__content -->
+                        <div class="event-one__btn-block">
+                            <a href="/event-detail/202308282211" class="thm-btn event-one__btn" style="border-radius: 10px;">阅读更多</a>
+                        </div><!-- /.event-one__btn-block -->
+                    </div><!-- /.event-one__single -->
+                </div><!-- /.col-lg-12 -->
+
+                <div class="col-lg-12">
+                    <div class="event-one__single">
+                        <div class="event-one__image">
+                            <div class="event-one__date">
+                                <span>12</span>
+                                JUL
+                            </div><!-- /.event-one__date -->
+                            <div class="event-one__image-box">
+                                <div class="event-one__image-inner">
+                                    <img src="{{ asset('assets/images/activity/item2.png') }}" alt="" style="width: 159px; height:159px;">
+                                </div><!-- /.event-one__image-inner -->
+                            </div><!-- /.event-one__image-box -->
+                        </div><!-- /.event-one__image -->
+                        <div class="event-one__content">
+                            <h3 style="font-size: 16px;"><a style="width: 500px;" href="/event-detail/202307121423">2023年东盟美食节将于9月19日至10月10日在中国上海国家会展中心盛大举行</a></h3>
+                            <p>马中商务理事会执行委员会主席丹斯里吴添泉披露，2023年东盟美食节将于9月19日至10月10日在中国上海国家会展中心盛大举行......</p>
+                        </div><!-- /.event-one__content -->
+                        <div class="event-one__btn-block">
+                            <a href="/event-detail/202307121423" class="thm-btn event-one__btn" style="border-radius: 10px;">阅读更多</a>
+                        </div><!-- /.event-one__btn-block -->
+                    </div><!-- /.event-one__single -->
+                </div><!-- /.col-lg-12 -->
+
                 <div class="col-lg-12">
                     <div class="d-flex justify-content-center my-3">
                         <div class="more-post__block">
@@ -470,6 +543,7 @@
                         </div>
                     </div>
                 </div>
+                
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section><!-- /.event-one -->

@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
+@section('title', '华总马来西亚华人博物馆 - 大马华总')
+
+
 @section('content')
 <div class="preloader">
         <div class="lds-ripple">
@@ -197,7 +200,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="history-one__image wow fadeInLeft" data-wow-duration="1500ms">
-                                <img src="assets/images/museum/fig9.png" alt="">
+                                <img src="assets/images/museum/fig9.png" style="width:27rem;height:23.6rem" alt="">
                             </div><!-- /.history-one__image -->
                         </div><!-- /.col-lg-6 -->
                         <div class="col-lg-6 d-flex">

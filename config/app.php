@@ -55,7 +55,9 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'http://localhost:8888'),
+    'admin_url' => env('ADMIN_URL', 'http://admin.localhost:8888'),
+
 
     'asset_url' => env('ASSET_URL'),
 
@@ -168,6 +170,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
     ])->toArray(),
 
     /*
@@ -183,6 +186,9 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
+        'adminlte' => JeroenNoten\LaravelAdminLte\AdminLteServiceProvider::class,
+        'Carbon' => 'Carbon\Carbon',
+
     ])->toArray(),
 
 ];
