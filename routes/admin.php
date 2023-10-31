@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\AuthController;
+use App\Http\Controllers\Admin\EventController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,11 +18,20 @@ use Illuminate\Support\Facades\Route;
 // Route::middleware(["guest:admin"])->group(function () {
 //     Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
 //     Route::post('login', 'Auth\LoginController@login');
-
 // });
-Route::resource("event", "EventController");
-Route::get('dashboard','EventController@index')->name('dashboard');
-Route::post("ckeditor/image/upload", "EventController@uploadCKImage")->name("ckeditor.upload.image");
+
+Route::get('login', [AuthController::class, 'showLoginForm'])->name('admin.login');
+Route::post('login', [AuthController::class, 'login']);
+Route::post('logout', [AuthController::class, 'logout']);
+
+
+Route::middleware("auth:admin")->group(
+    function () {
+        Route::resource("event", "EventController");
+        Route::get('dashboard', [EventController::class, 'index'])->name('dashboard');
+        Route::post("ckeditor/image/upload", [EventController::class, 'uploadCKImage'])->name("ckeditor.upload.image");
+    }
+);
 
 Route::get('/', function () {
     return view('admin.page')->name('dashboard');

@@ -2,19 +2,29 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
+use Session;
+use Carbon\Carbon;
+use App\Models\User;
+use App\Models\Admin;
 use App\Models\Event;
 use App\Models\Group;
-use Illuminate\Support\Facades\Validator;
-use Session;
 
+use App\Library\RoleTag;
+use Illuminate\Http\Request;
+use App\Library\PermissionTag;
+use Illuminate\Support\Facades\DB;
+use App\Http\Requests\EventRequest;
+use App\Http\Services\EventService;
+use App\Http\Services\ImageService;
+use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Requests\UpdateEventRequest;
+use Illuminate\Support\Facades\Validator;
 
 class EventController extends Controller
 {
 
-    protected $upload_path = '/app/public/description_media';
+    protected $upload_path = '/events';
 
 
     /**
@@ -22,9 +32,9 @@ class EventController extends Controller
      */
     public function index()
     {
-        $user = Auth::user();
-
-        $events = Event::all();
+        $events = Event::orderByDesc('publish_date')
+            ->orderByDesc('created_at')
+            ->get();
 
         return view('admin.event.index', compact('events'));
     }
@@ -35,64 +45,41 @@ class EventController extends Controller
     public function create()
     {
         //
-        $companies = Group::all();
+        $groups = Group::where('status', 1)->get();
 
-        return view('admin.event.create',compact('companies'));
- 
+        return view('admin.event.create', compact('groups'));
     }
 
     /**
      * Store a newly created resource in storage.
      */
-    
-    public function store(Request $request)
+
+    public function store(EventRequest $request)
     {
         //
+        $payload = $request->validated();
 
-        $validator = Validator::make($request, [
-            'company_name' => 'required|max:191',
-            'event_name' => 'required|max:191',
-            'joined_point' => 'required|numeric|min:0',
-            'attendance_point' => 'required|numeric|min:0',
-            'event_description' => 'required',
-            'event_location' => 'required|max:191',
-            'event_address' => 'required|max:191',
-            'event_email' => 'required|email|max:191',
-            'event_contact' => 'required|max:191',
-            'event_date' => 'required',
-            'start_time' => 'required|before:end_time',
-            'end_time' => 'required|after:start_time',
-            'max_capacity' => 'required|integer|max:1000|min:0',
-            // 'event_banner' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:50000',
-            'file' => 'nullable|file|max:500000',
-            'external_registration_link' => 'nullable|max:500',
-            'allow_feedback' => 'required|in:0,1',
-            'event_status' => 'required|in:Approved,Pending,Rejected,Postponed,Cancelled',
-
-        ]);
-
-        if ($validator->fails()) {
-            return redirect()->back()->withErrors($validator)->withInput();
+        if (!auth()->user()->hasPermissionTo(PermissionTag::PERMISSION_FOR_ADMIN)) {
+            return redirect()->route('event.index')->withErrors(['message' => 'Only Admin Can Create The Posts.']);
         }
 
-        $new_event = new Event;
-        $new_event->company_id = $request->company_name;
-      
-        $new_event->joined_point = $request->joined_point;
-        $new_event->attendance_point = $request->attendance_point;
-        $new_event->name = $request->event_name;
-        $new_event->description = $request->event_description;
-        $new_event->location = $request->event_location;
-        $new_event->address = $request->event_address;
-        $new_event->email = $request->event_email;
-        $new_event->contact = $request->event_contact;
-      
-        $new_event->max_capacity = $request->max_capacity;
-        $new_event->external_registration_link = $request->external_registration_link;
-        $new_event->allow_feedback = $request->allow_feedback;
-        $new_event->event_status = 'Pending';
-        $new_event->save();
+        return DB::transaction(function () use ($payload) {
+            $formattedDate = EventService::formattedDate($payload);
+            $admin = auth()->guard(RoleTag::ADMIN)->user();
 
+            $result = Event::create([
+                'title' => $payload['event_name'],
+                'content' => $payload['event_description'],
+                'publish_date' => $formattedDate,
+                'status' => $payload['event_status'],
+                'created_by' => $admin->id
+            ]);
+
+            ImageService::uploadImage($payload, $result);
+
+            return redirect()->route('event.index', ['result' => $result])
+                ->with('success', 'Event created successfully');
+        });
     }
 
     /**
@@ -101,6 +88,9 @@ class EventController extends Controller
     public function show(string $id)
     {
         //
+        $event = Event::find($id);
+
+        return view('admin.event.show', compact('event'));
     }
 
     /**
@@ -109,14 +99,38 @@ class EventController extends Controller
     public function edit(string $id)
     {
         //
+        $event = Event::find($id);
+        $groups = Group::where('status', 1)->get();
+        return view('admin.event.edit', compact('event', 'groups'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(EventRequest $request, String $id)
     {
         //
+        $payload = $request->validated();
+
+        return DB::transaction(function () use ($payload, $id) {
+            $eventQuery = Event::query();
+            $formattedDate = EventService::formattedDate($payload);
+            $admin = auth()->guard(RoleTag::ADMIN)->user();
+
+            $eventQuery->where('id', $id)->update([
+                'title' => $payload['event_name'],
+                'content' => $payload['event_description'],
+                'publish_date' => $formattedDate,
+                'status' => $payload['event_status'],
+                'created_by' => $admin->id
+            ]);
+
+            $fetchUpdatedResult = $eventQuery->find($id);
+
+            ImageService::uploadImage($payload, $fetchUpdatedResult);
+
+            return redirect()->route('event.index')->with('success', 'Event updated successfully');
+        });
     }
 
     /**
@@ -125,6 +139,11 @@ class EventController extends Controller
     public function destroy(string $id)
     {
         //
+        $event = Event::find($id);
+        $event->delete();
+        $event->images()->delete();
+
+        return response()->json(['success' => $event]);
     }
 
     public function uploadCKImage(Request $request)
@@ -152,7 +171,6 @@ class EventController extends Controller
         }
 
         if ($request->hasFile("upload")) {
-
             $file = $request->file("upload");
             $extension = strtolower($file->getClientOriginalExtension());
             $file_name = "media_" . date("Ymdhis") . rand(11, 99) . '.' . $extension;
@@ -215,6 +233,4 @@ class EventController extends Controller
 
         return response()->json(['success' => true, 'message' => 'Upload Success', 'data' => $url, 'name' => '/storage/event/' . $file_name]);
     }
-
-
 }

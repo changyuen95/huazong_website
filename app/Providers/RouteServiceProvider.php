@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Route;
 
 class RouteServiceProvider extends ServiceProvider
 {
-     /**
+    /**
      * This namespace is applied to your controller routes.
      *
      * In addition, it is set as the URL generator's root namespace.
@@ -38,19 +38,15 @@ class RouteServiceProvider extends ServiceProvider
         RateLimiter::for('api', function (Request $request) {
             return Limit::perMinute(60)->by($request->user()?->id ?: $request->ip());
         });
-        
-        parent::boot();
 
+        parent::boot();
     }
 
     public function map()
     {
-        // $this->mapApiRoutes();
+        $this->mapApiRoutes();
         $this->mapAdminRoutes();
         $this->mapWebRoutes();
-       
-
-
     }
 
     /**
@@ -83,13 +79,12 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    // protected function mapApiRoutes()
-    // {
-    //     Route::prefix('api')
-    //          ->domain(config('app.api'))
-    //          ->middleware('api')
-    //         //  ->namespace($this->namespace)
-    //          ->group(base_path('routes/api.php'));
-    // }
-
+    protected function mapApiRoutes()
+    {
+        Route::prefix('api')
+            ->domain(config('app.api'))
+            ->middleware('api')
+            //  ->namespace($this->namespace)
+            ->group(base_path('routes/api.php'));
+    }
 }

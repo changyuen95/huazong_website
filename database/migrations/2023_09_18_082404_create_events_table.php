@@ -17,9 +17,11 @@ return new class extends Migration
             $table->text('content')->nullable();
             $table->timestamp('publish_date')->nullable();
             $table->tinyInteger('pin')->default(0);
-            $table->tinyInteger('status')->comment('pending, active , rejected , cancelled , inactive');
+            $table->enum('status', ['Pending', 'Active', 'Rejected', 'Cancelled', 'Inactive'])
+                ->default('Pending')
+                ->comment('Pending, Active, Rejected, Cancelled, Inactive');
             $table->string('created_by')->nullable();
-            $table->string('group_id')->nullable();
+            $table->softDeletes();
             $table->timestamps();
         });
     }

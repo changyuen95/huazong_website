@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
-@section('title', '马中商务理事会联办上海东盟美食节　吴添泉冀我国商家响应参与 - 大马华总')
-
+@section('title', $event->title)
 
 @section('content')
 <div class="preloader">
@@ -12,20 +11,11 @@
 </div><!-- /.preloader -->
 
 <div class="page-wrapper">
-
-    
-
-    <!-- <section class="page-header" style="background-image: url(assets/images/event_detail/bg.png); background-repeat: no-repeat;">
-        <div class="container" style="padding-left:0px;padding:right:0px">
-            <h2>中国全国政协港澳台侨委会莅临访问华总</h2>
-        </div>
-    </section> -->
-
     <section class="blog-one blog-standard-page">
         <div class="container" style="padding-left:0px;padding:right:0px">
             <div class="row">
-                <div class="px-3">
-                    <h2>马中商务理事会联办上海东盟美食节　吴添泉冀我国商家响应参与</h2>
+                <div class="col-12 px-3">
+                    <h2>{{ $event->title }}</h2>
                 </div>
                 <!-- Left Content -->
                 <div class="col-lg-8">
@@ -33,108 +23,52 @@
                         <div class="col-lg-12">
                             <div class="blog-one__single">
                                 <div class="blog-one__image">
-                                    <img src="{{ asset('assets/images/event_detail/event-img1.png') }}" alt="">
+                                    <img src="{{ $detailImageUrl ? $detailImageUrl : asset('assets/images/dummy_image.jpg') }}" alt="">
                                 </div><!-- /.blog-one__image -->
                                 <div class="blog-one__content">
                                     <ul class="blog-one__meta list-unstyled">
                                         <li>
                                             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM14.2 14.2L9 11V5H10.5V10.2L15 12.9L14.2 14.2Z" fill="#EB1757"/>
+                                                <path d="M10 0C8.68678 0 7.38642 0.258658 6.17317 0.761205C4.95991 1.26375 3.85752 2.00035 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C3.85752 17.9997 4.95991 18.7362 6.17317 19.2388C7.38642 19.7413 8.68678 20 10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 8.68678 19.7413 7.38642 19.2388 6.17317C18.7362 4.95991 17.9997 3.85752 17.0711 2.92893C16.1425 2.00035 15.0401 1.26375 13.8268 0.761205C12.6136 0.258658 11.3132 0 10 0ZM14.2 14.2L9 11V5H10.5V10.2L15 12.9L14.2 14.2Z" fill="#EB1757" />
                                             </svg>
-                                            <a href="#" class="ml-2">12-7-2023 14:23</a>
+                                            <a href="#" class="ml-2">{{ $event->formatted_publish_date ?? $event->formatted_created_at }}</a>
                                         </li>
                                     </ul><!-- /.blog-one__meta list-unstyled -->
-                                    <p style="color:black; font-size:1.2rem">
-                                    马中商务理事会执行委员会主席丹斯里吴添泉披露，2023年东盟美食节将于9月19日至10月10日在中国上海国家会展中心盛大举行。
-                                    <br><br>
-                                    他说，这是一场不容错过的美食、文化和旅游的盛大庆典，当局也计划在上海盛会过后，以一年的时间分别到深圳、北京、天津和成都等中国12个城市展示，并在每个地点停留20多天，确保中国各地更多人民能够参与体验东盟的魅力。
-                                    <br><br>
-                                    他说，它为有意开拓中国市场的我国企业提供了机会。主办方将协助和鼓励更多我国零售商进军全球最大的市场。
-                                    <br><br>
-                                    这项盛会将由马中商务理事会、东盟零售连锁与特许经营联合会、金猫（上海）影业有限公司以及上海国家会展中心联合主办，是促进东盟国家与中国之间的文化交流、带动旅游业和加强外交关系，欢迎各界参与和响应，并从中开拓更大的商机。
-                                    <br><br>
-                                    活动将展示 15 个区域全面经济伙伴关系协定国家以及香港、澳门和台湾充满活力和多样化的各类美食产品。
-                                    <br><br>
-                                    在上海国家会展中心北广场举行,总规划面积50000平方米的大会，将设有 400 多个不同大小的摊位，包括食品卡车和 40英尺集装箱，将为与会者带来难忘且美好的体验。
-                                    <br><br>
-                                    有关活动将把游客带到东南亚的中心，爱好烹饪和美食者，可以尽情享用各种街头小吃、熟食和来自不同国家的地方美食。
-                                    <br><br>
-                                    从大马著名的榴梿猫山王、参巴椰浆饭、福建面、亚参叻沙、炒粿条、猪肠粉、印度煎饼、麻坡乌打、珍露和拉茶，以及自菲律宾的芒果干和椰子，以及泰国等地的独特风味和美食。
-                                    <br><br>
-                                    总签约仪式于经于上月2日在上海国家会展中心举行，每个区域全面经济伙伴关系协定国家的旅游部或理事会，都将分配一个展位来展示其文化和旅游产品，进行相关促销宣传用途。
-                                    <br><br>
-                                    盛会期间，会展中心舞台将举办来自东盟各国的精彩音乐和文化表演，进一步让与会者沉浸在充满活力的氛围中。
-                                </p>
+                                    {!! $event->content !!}
                                 </div><!-- /.blog-one__content -->
                             </div><!-- /.blog-one__single -->
 
                         </div><!-- /.col-lg-12 -->
-                       
-                        
+
+
                         <div class="col-lg-12">
-                            <hr>
-                            <!-- 类别 & 标签 -->
-                            <!-- <div class="row mb-5">
-                                <div class="col-lg-4">
-                                    <div class="category-title">类别</div>
-                                    <div>
-                                        <button class="btn-outline-thm px-3 mr-2 mb-2" style="font-size: 15px;">马来西亚中华大会堂总会</button>
-                                    </div>
-                                </div>
-                                <div class="col-lg-8">
-                                    <div class="category-title">标签</div>
-                                    <div>
-                                        <button class="btn-outline-thm px-3 mr-2 mb-2" style="font-size: 15px;">中华文化</button>
-                                        <button class="btn-outline-thm px-3 mr-2 mb-2" style="font-size: 15px;">图腾</button>
-                                        <button class="btn-outline-thm px-3 mr-2 mb-2" style="font-size: 15px;">华总</button>
-                                        <button class="btn-outline-thm px-3 mr-2 mb-2" style="font-size: 15px;">华总大厦</button>
-                                        <button class="btn-outline-thm px-3 mr-2 mb-2" style="font-size: 15px;">马来西亚产业大奖</button>
-                                        <button class="btn-outline-thm px-3 mr-2 mb-2" style="font-size: 15px;">风水</button>
-                                        <button class="btn-outline-thm px-3 mr-2 mb-2" style="font-size: 15px;">隆雪华堂</button>
-                                    </div>
-                                </div>
-                            </div> -->
-
-                            <!-- <div class="d-flex flex-column mb-5">
-                                <button class="btn-thm">分享</button>
-                            </div> -->
-                            <hr>
-
                             <div class="d-flex">
                                 <div class="d-flex flex-fill">
                                     <div class="p-2">
                                         <a href="#">
                                             <svg width="25" height="86" viewBox="0 0 25 86" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <rect width="25" height="86" fill="url(#pattern0)"/>
+                                                <rect width="25" height="86" fill="url(#pattern0)" />
                                                 <defs>
                                                     <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                                        <use xlink:href="#image0_7_1041" transform="matrix(0.04 0 0 0.0125345 0 0.224242)"/>
+                                                        <use xlink:href="#image0_7_1041" transform="matrix(0.04 0 0 0.0125345 0 0.224242)" />
                                                     </pattern>
-                                                    <image id="image0_7_1041" width="24" height="44" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAsBAMAAACNsmVwAAAAJFBMVEUAAADl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eUr8Vo4AAAAC3RSTlMABjDtsK/qDCS8u2HozwsAAABASURBVCjPY0AARgEkjmggkkS0BZLEZgUkCaNhIcG+GkmiDCqByWGfjaSMQQRZitF7SEslIUttQ5HKQJZyREkuAAJpH0rXDOkxAAAAAElFTkSuQmCC"/>
+                                                    <image id="image0_7_1041" width="24" height="44" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAsBAMAAACNsmVwAAAAJFBMVEUAAADl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eUr8Vo4AAAAC3RSTlMABjDtsK/qDCS8u2HozwsAAABASURBVCjPY0AARgEkjmggkkS0BZLEZgUkCaNhIcG+GkmiDCqByWGfjaSMQQRZitF7SEslIUttQ5HKQJZyREkuAAJpH0rXDOkxAAAAAElFTkSuQmCC" />
                                                 </defs>
                                             </svg>
                                         </a>
                                     </div>
-                                    <!-- <div class="align-self-center">
-                                        <div class="px-2 text-left">上一个活动</div>
-                                        <div class="px-2 font-weight-bold" style="color: #000000;">上海市归国华侨联合会访问团莅临访问华总</div>
-                                    </div> -->
                                 </div>
-                                
+
                                 <div class="d-flex flex-fill">
-                                    <!-- <div class="align-self-center">
-                                        <div class="px-2 text-right">下一个活动</div>
-                                        <div class="px-2 font-weight-bold" style="color: #000000;">接待张瑞海领导的中国北京百悟集团访问团</div>
-                                    </div> -->
                                     <div class="p-2">
                                         <a href="#">
                                             <svg width="26" height="86" viewBox="0 0 26 86" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <rect width="25" height="86" transform="matrix(-1 0 0 1 25.9805 0)" fill="url(#pattern0)"/>
+                                                <rect width="25" height="86" transform="matrix(-1 0 0 1 25.9805 0)" fill="url(#pattern0)" />
                                                 <defs>
                                                     <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                                        <use xlink:href="#image0_7_1051" transform="matrix(0.04 0 0 0.0125345 0 0.224242)"/>
+                                                        <use xlink:href="#image0_7_1051" transform="matrix(0.04 0 0 0.0125345 0 0.224242)" />
                                                     </pattern>
-                                                    <image id="image0_7_1051" width="24" height="44" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAsBAMAAACNsmVwAAAAJFBMVEUAAADl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eUr8Vo4AAAAC3RSTlMABjDtsK/qDCS8u2HozwsAAABASURBVCjPY0AARgEkjmggkkS0BZLEZgUkCaNhIcG+GkmiDCqByWGfjaSMQQRZitF7SEslIUttQ5HKQJZyREkuAAJpH0rXDOkxAAAAAElFTkSuQmCC"/>
+                                                    <image id="image0_7_1051" width="24" height="44" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAsBAMAAACNsmVwAAAAJFBMVEUAAADl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eUr8Vo4AAAAC3RSTlMABjDtsK/qDCS8u2HozwsAAABASURBVCjPY0AARgEkjmggkkS0BZLEZgUkCaNhIcG+GkmiDCqByWGfjaSMQQRZitF7SEslIUttQ5HKQJZyREkuAAJpH0rXDOkxAAAAAElFTkSuQmCC" />
                                                 </defs>
                                             </svg>
                                         </a>
@@ -151,45 +85,38 @@
                     <div class="sidebar">
                         <div class="sidebar__single">
                             <h3 class="sidebar__title">搜寻</h3>
+                            {{-- {{ url('/') }}/recent-activity? --}}
+                            {{-- {{ route('recent_search') }} --}}
                             <form action="{{ url('/') }}/recent-activity?" class="sidebar__search" method="GET">
                                 <input type="text" name="search" placeholder="搜寻">
-                                <button type="submit"><i class="muzex-icon-search"></i></button>
+                                <button class="recent-activity-search" type="submit"><i class="muzex-icon-search"></i></button>
                             </form>
                         </div><!-- /.sidebar__single -->
                         <div class="sidebar__single">
                             <h3 class="sidebar__title">类别</h3>
                             <ul class="list-unstyled sidebar__cat-list">
-                                <li><a href="#">马来西亚中华大会堂总会</a></li>
-                                <!-- <li><a href="#">沙巴中华大会堂</a></li>
-                                <li><a href="#">砂拉越华人社团联合总会</a></li>
-                                <li><a href="#">柔佛州中华总会</a></li>
-                                <li><a href="#">彭亨华人社团联合会</a></li>
-                                <li><a href="#">登嘉楼中华大会堂</a></li>
-                                <li><a href="#">吉兰丹中华大会堂</a></li>
-                                <li><a href="#">槟州华人大会堂</a></li>
-                                <li><a href="#">霹雳中华大会堂</a></li>
-                                <li><a href="#">吉隆坡暨雪兰莪中华大会堂</a></li>
-                                <li><a href="#">森美兰中华大会堂</a></li>
-                                <li><a href="#">马六甲中华大会堂</a></li>
-                                <li><a href="#">吉打州华人大会堂</a></li>
-                                <li><a href="#">玻璃市州华人大会堂</a></li> -->
+                                <li><a href="#">{{ $event->group->name }}</a></li>
                             </ul><!-- /.list-unstyled sidebar__cat-list -->
                         </div><!-- /.sidebar__single -->
                         <div class="sidebar__single">
                             <h3 class="sidebar__title">最新活动</h3>
                             <div class="sidebar__post">
+
+                                @foreach($recentActivityList as $recentActivity)
                                 <div class="sidebar__post-single">
                                     <div class="sidebar__post-image">
-                                        <img src="{{ asset('assets/images/event_detail/sub-event-img1.png') }}" alt="">
+                                        <img src="{{ $recentActivity->image->name ?? asset('assets/images/dummy_image.jpg') }}" alt="">
                                     </div><!-- /.sidebar__post-image -->
                                     <div class="sidebar__post-content">
-                                        <a class="sidebar__post-date" style="color: #EB1757;" href="#">
-                                            12-7-2023 14:23
+                                        <a class="sidebar__post-date" style="color: #EB1757;" href="{{ route('web.event.show', $recentActivity->id) }}">
+                                            {{ $recentActivity->formatted_publish_date ?? $recentActivity->formatted_created_at }}
                                         </a>
-                                        <h3><a href="/event-detail" style="font-size: 14px; line-height: 0.1px;">2023年东盟美食节将于9月19日至10月10日在中国上海国家会展中心盛大举行</a></h3>
+                                        <h3><a href="{{ route('web.event.show', $recentActivity->id) }}" style="font-size: 14px; line-height: 0.1px;">{{ $recentActivity->title }}</a></h3>
                                     </div><!-- /.sidebar__post-content -->
                                 </div><!-- /.sidebar__post-single -->
-                               
+                                @endforeach
+
+
                             </div><!-- /.sidebar__post -->
                         </div><!-- /.sidebar__single -->
                         <!-- <div class="sidebar__single">
@@ -291,7 +218,6 @@
         </div>
     </div><!-- /.side-menu__block-inner -->
 </div><!-- /.side-menu__block -->
-    
+
 <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 @endsection
-

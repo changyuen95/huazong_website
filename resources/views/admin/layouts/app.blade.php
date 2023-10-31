@@ -20,8 +20,7 @@
   <link rel="stylesheet" href="{{asset('admin/plugins/datatables-bs4/css/dataTables.bootstrap4.css')}}">
 
   <!-- Tempusdominus Bbootstrap 4 -->
-  <link rel="stylesheet"
-    href="{{asset('admin/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css')}}">
+  <link rel="stylesheet" href="{{asset('admin/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css')}}">
   <!-- Sweet Alert2 -->
   <link rel="stylesheet" href="{{asset('admin/plugins/sweetalert2/sweetalert2.css')}}">
   <!-- Bootbox -->
@@ -42,7 +41,6 @@
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-tagsinput/0.8.0/bootstrap-tagsinput.css" integrity="sha512-xmGTNt20S0t62wHLmQec2DauG9T+owP9e6VU8GigI0anN7OXLip9i7IwEhelasml2osdxX71XcYm6BQunTQeQg==" crossorigin="anonymous" />
-
 
 </head>
 
@@ -74,14 +72,13 @@
 
 
   <script>
-
-
     function outFunc() {
       var tooltip = document.getElementById("myTooltip");
       tooltip.innerHTML = "Copy to clipboard";
     }
+
     function copyLink(id) {
-      var text = $("#"+id).data('link');
+      var text = $("#" + id).data('link');
       var $temp = $("<input>");
       $("body").append($temp);
       $temp.val(text).select();
@@ -96,10 +93,10 @@
   <script src="{{asset('admin/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
   <!-- jQuery library -->
-{{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> --}}
+  {{-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> --}}
 
-<!-- Latest compiled JavaScript -->
-{{-- <script src="{{asset('admin/js/bootstrap.3.4.1.js')}}"></script> --}}
+  <!-- Latest compiled JavaScript -->
+  {{-- <script src="{{asset('admin/js/bootstrap.3.4.1.js')}}"></script> --}}
 
   <!-- overlayScrollbars -->
   <script src="{{asset('admin/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js')}}"></script>
@@ -133,7 +130,7 @@
   <script src="{{asset('admin/plugins/datatables-bs4/js/dataTables.bootstrap4.js')}}"></script>
   <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js"></script>
   <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.html5.min.js"></script>
-	<script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.print.min.js"></script>
+  <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.print.min.js"></script>
 
   <!-- Sweet Alert2 -->
   <script src="{{asset('admin/plugins/sweetalert2/sweetalert2.js')}}"></script>
@@ -153,16 +150,16 @@
 
   @if(session()->has('success'))
   <script>
-    $(document).ready(function(){
-        swal.fire("Success!", "{{session()->get('success')}}", "success")
+    $(document).ready(function() {
+      swal.fire("Success!", "{{session()->get('success')}}", "success")
     });
   </script>
   @endif
 
   @if(session()->has('warning'))
   <script>
-    $(document).ready(function(){
-        swal.fire("Warning!", "{{session()->get('warning')}}", "info")
+    $(document).ready(function() {
+      swal.fire("Warning!", "{{session()->get('warning')}}", "info")
     });
   </script>
   @endif
@@ -170,32 +167,32 @@
 
   @if(session()->has('fail'))
   <script>
-    $(document).ready(function(){
-        swal.fire("Error!", "{{session()->get('fail')}}", "error")
+    $(document).ready(function() {
+      swal.fire("Error!", "{{session()->get('fail')}}", "error")
     });
   </script>
   @endif
 
   <script>
-    $(function () {
+    $(function() {
       $('.select2').select2();
-        $('.datepicker').datepicker({
-            format: 'yyyy-mm-dd',
-            orientation: "bottom",
-          });
+      $('.datepicker').datepicker({
+        format: 'yyyy-mm-dd',
+        orientation: "bottom",
+      });
 
-        $('.timepicker').datetimepicker({
-            format: 'hh:mm:a'
-        });
+      $('.timepicker').datetimepicker({
+        format: 'hh:mm:a'
+      });
 
-        $('.datepicker2').datepicker({
-            format: 'yyyy-mm-dd',
-            orientation: "bottom",
-          });
+      $('.datepicker2').datepicker({
+        format: 'yyyy-mm-dd',
+        orientation: "bottom",
+      });
 
-        $('.timepicker2').datetimepicker({
-            format: 'hh:mm:a'
-        });
+      $('.timepicker2').datetimepicker({
+        format: 'hh:mm:a'
+      });
 
     });
   </script>
@@ -207,16 +204,16 @@
     console.info('Text:');
 
     Clipboard.on('success', function(e) {
-        bootbox.alert("Copied!");
+      bootbox.alert("Copied!");
 
 
-            e.clearSelection();
-        });
+      e.clearSelection();
+    });
 
-        Clipboard.on('error', function(e) {
-            console.error('Action:', e.action);
-            console.error('Trigger:', e.trigger);
-        });
+    Clipboard.on('error', function(e) {
+      console.error('Action:', e.action);
+      console.error('Trigger:', e.trigger);
+    });
   </script>
 </body>
 

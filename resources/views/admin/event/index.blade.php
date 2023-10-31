@@ -20,7 +20,22 @@
 				</div>
 			</div>
 		</div><!-- /.container-fluid -->
+		<div class="event-create-button">
+			<a href="{{ route('event.create') }}" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" target="_blank">
+				<span class="mr-2"><i class="fas fa-plus"></i></span>
+				Create Event
+			</a>
+		</div>
 	</section>
+
+	@error('message')
+	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+		{{ $message }}
+		<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+	@enderror
 
 	<!-- Main content -->
 	<section class="content">
@@ -30,84 +45,72 @@
 					<div class="card-header bg-navy">
 						<h3 class="card-title"><i class="fas fa-dumbbell"></i> Events List</h3>
 						<div class="card-tools">
-							<button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip"
-								title="Collapse">
+							<button type="button" class="btn btn-tool" data-card-widget="collapse" data-toggle="tooltip" title="Collapse">
 								<i class="fas fa-minus"></i>
 							</button>
 						</div>
 					</div>
 					<!-- /.card-header -->
 					<div class="card-body">
-						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-										aria-labelledby="exampleModalLabel" aria-hidden="true">
-										<div class="modal-dialog modal-md" role="document">
-											<div class="modal-content">
-												<div class="modal-header">
-													<h3 class="modal-title modal-title-library"></h3>
-													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-														<span aria-hidden="true">&times;</span>
-													</button>
-												</div>
-												<div class="modal-body">
-													<p>*<b>Note:</b> QR Attendance Checkin is allowed from event's start datetime till 30 minutes after the event.</p>
-													<img id="bigger-image" src="{{asset('images/sample/no_image_available.jpeg')}}"
-														width="100%" alt="">
-												</div>
-											</div>
-										</div>
+						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-md" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h3 class="modal-title modal-title-library"></h3>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
 									</div>
+									<div class="modal-body">
+										<p>*<b>Note:</b> QR Attendance Checkin is allowed from event's start datetime till 30 minutes after the event.</p>
+										<img id="bigger-image" src="{{asset('images/sample/no_image_available.jpeg')}}" width="100%" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
 						<div class="table-responsive">
-							<table id="example" class="table table-bordered table-striped">
+							<table id="event-admin-table" class="table table-bordered table-striped">
 								<thead>
 									<tr>
 										<th>No</th>
 										<th>Event Name</th>
-										<th>Event Date</th>
-										<th>Registrations Points</th>
-										<th>Attendance Points</th>
+										<th>Event Description</th>
+										<th>Published Date</th>
+										<th>Created By</th>
 										<th>Organized By</th>
-										<th>Total Participants</th>
 										<th>Status</th>
 										<th>Created Date</th>
-
 										<th>Action</th>
-=									</tr>
+										=
+									</tr>
 								</thead>
 								<tbody>
 									@foreach($events as $event)
 									<tr>
 										<td>{{$loop->iteration}}</td>
-										<td>{{!empty($event->name) ? $event->name : '-'}}</td>
-										<td>{{!empty($event->date) ? $event->date : '-'}}</td>
-										<td>{{ $event->joined_point ?? 0 }}</td>
-										<td>{{ $event->attendance_point ?? 0 }}</td>
-										<td>{{!empty($event->company) ? $event->company->name : '-' }}</td>
-										<td>										</td>
-										<td>{{$event->event_status}}</td>
+										<td>{{!empty($event->title) ? $event->title : '-'}}</td>
+										<td>{{!empty($event->content) ? strip_tags($event->content) : '-'}}</td>
+										<td>{{!empty($event->publish_date) ? Carbon::parse($event->publish_date)->format('Y-m-d H:i:s') : '-'}}</td>
+										<td>{{!empty($event->host) ? $event->host->name : '-'}}</td>
+										<td>{{!empty($event->group) ? $event->group->name : '-'}}</td>
+										<td>{{$event->status}}</td>
 										<td>{{Carbon::parse($event->created_at)->format('Y-m-d H:i:s')}}</td>
-
 										<td>
-											<a class="btn btn-primary" href="{{route('event.show', $event->id)}}"><i
-													class="fa fa-search" aria-hidden="true"></i></a>
+											<a class="btn btn-primary" href="{{route('event.show', $event->id)}}"><i class="fa fa-search" aria-hidden="true"></i></a>
 
-											<a class="btn btn-warning" href="{{ route('event.edit',$event->id) }}"><i
-													class="fa fa-edit text-white" aria-hidden="true"></i></a>
+											<a class="btn btn-warning" href="{{ route('event.edit',$event->id) }}"><i class="fa fa-edit text-white" aria-hidden="true"></i></a>
 											@if($event->uuid)
-											{{-- <a class="btn btn-success trigger-modal" url="http://api.qrserver.com/v1/create-qr-code/?data={{ old('uuid', $event->uuid ?? '') }}&size=1000x1000" title="QR Code"><i
-												class="fas fa-qrcode text-white" aria-hidden="true"></i></a> --}}
-												@php
-													$user_env = config('app.deep_link') ?? 'https://panel.engagelife.com.my';
-													$link = $user_env.'/update-attendance-qr/'.$event->uuid;
-												@endphp
-												{{-- @dump($link) --}}
+											{{-- <a class="btn btn-success trigger-modal" url="http://api.qrserver.com/v1/create-qr-code/?data={{ old('uuid', $event->uuid ?? '') }}&size=1000x1000" title="QR Code"><i class="fas fa-qrcode text-white" aria-hidden="true"></i></a> --}}
+											@php
+											$user_env = config('app.deep_link') ?? 'https://panel.engagelife.com.my';
+											$link = $user_env.'/update-attendance-qr/'.$event->uuid;
+											@endphp
+											{{-- @dump($link) --}}
 
-												<a class="btn btn-success trigger-modal" url="http://api.qrserver.com/v1/create-qr-code/?data={{ $link }}&size=1000x1000" title="QR Code"><i
-													class="fas fa-qrcode text-white" aria-hidden="true"></i></a>
+											<a class="btn btn-success trigger-modal" url="http://api.qrserver.com/v1/create-qr-code/?data={{ $link }}&size=1000x1000" title="QR Code"><i class="fas fa-qrcode text-white" aria-hidden="true"></i></a>
 											@endif
 
-											<button data-id="{{ $event->id }}" class="btn btn-danger delete-btn"
-												href="{{ route('event.destroy',$event->id) }}"><i class="fa fa-trash"
-													aria-hidden="true"></i></button>
+											<button data-id="{{ $event->id }}" class="btn btn-danger delete-btn" href="{{ route('event.destroy',$event->id) }}"><i class="fa fa-trash" aria-hidden="true"></i></button>
 
 									</tr>
 									@endforeach
@@ -116,15 +119,12 @@
 									<tr>
 										<th>No</th>
 										<th>Event Name</th>
-										<th>Event Date</th>
-										<th>Registrations Points</th>
-										<th>Attendance Points</th>
+										<th>Event Description</th>
+										<th>Published Date</th>
+										<th>Created By</th>
 										<th>Organized By</th>
-										<th>Total Participants</th>
 										<th>Status</th>
 										<th>Created Date</th>
-
-
 										<th>Action</th>
 									</tr>
 								</tfoot>
@@ -147,30 +147,29 @@
 @section('script')
 <script>
 	// console.log('oii');
-	$(document).ready(function(){
-      $('#example').DataTable({
-'stateSave': true,
-        "paging": true,
-        "lengthChange": false,
-        "searching": true,
-        "ordering": true,
-        "info": true,
-        "autoWidth": false,
-        // "pageLength": 5,
-        "columnDefs": [{
-            orderable: false,
-            targets: [3,4]
-        }],
-		dom: 'Bfrtip',
-		buttons: [
-			 'csv', 'excel', 'pdf','print'
-		]
-      });
+	$(document).ready(function() {
+		$('#event-admin-table').DataTable({
+			'stateSave': true,
+			"paging": true,
+			"lengthChange": false,
+			"searching": true,
+			"ordering": true,
+			"info": true,
+			"autoWidth": false,
+			"columnDefs": [{
+				orderable: false,
+				targets: [3, 4]
+			}],
+			dom: 'Bfrtip',
+			buttons: [
+				'csv', 'excel', 'pdf', 'print'
+			],
+		});
 
-	  $(document).on('click', '.trigger-modal', function(e){
+		$(document).on('click', '.trigger-modal', function(e) {
 			e.preventDefault();
 			var source = $(this).attr('url');
-			var title =$(this).attr('title');
+			var title = $(this).attr('title');
 
 			if (source != 'undefined') {
 				$('#bigger-image').attr('src', source);
@@ -179,52 +178,58 @@
 			}
 		});
 
-	  $('table').on('click', '.delete-btn', function(){
-            let id = $(this).data('id');
-            let url = "{{ route('event.destroy',['event' => 'placeholder']) }}";
-            url = url.replace('placeholder',id);
+		$('table').on('click', '.delete-btn', function() {
+			let id = $(this).data('id');
+			let url = "{{ route('event.destroy',['event' => 'placeholder']) }}";
+			url = url.replace('placeholder', id);
 
-            Swal.fire({
-                title: 'Are you sure?',
-                text: 'You will not be able to recover this data!',
-                icon: 'warning',
-                showCancelButton: true,
-                confirmButtonText: 'Yes, delete it!',
-                cancelButtonText: 'No, keep it'
-                }).then((result) => {
-                if (result.value) {
-                    $.ajax({
-                        url: url,
-                        method: "post",
-                        data: {
-                            _method: "DELETE",
-                            _token: "{{ csrf_token() }}"
-                        },
-                        success: function(response){
-                            if(response.success){
+			Swal.fire({
+				title: 'Are you sure?',
+				text: 'You will not be able to recover this data!',
+				icon: 'warning',
+				showCancelButton: true,
+				confirmButtonText: 'Yes, delete it!',
+				cancelButtonText: 'No, keep it'
+			}).then((result) => {
+				if (result.value) {
+					$.ajax({
+						url: url,
+						method: "post",
+						data: {
+							_method: "DELETE",
+							_token: "{{ csrf_token() }}"
+						},
+						success: function(response) {
+							console.log(response.success);
+							if (response.success) {
 
-                                Swal.fire(
-                                'Deleted!',
-                                'Event has been deleted.',
-                                'success'
-                                ).then(function(){
-                                    window.location.reload(true);
-                                })
-                            }
-                        }
-                    });
+								Swal.fire(
+									'Deleted!',
+									'Event has been deleted.',
+									'success'
+								).then(function() {
+									window.location.reload(true);
+								})
+							}
+						}
+					});
 
-                // For more information about handling dismissals please visit
-                // https://sweetalert2.github.io/#handling-dismissals
-                } else if (result.dismiss === Swal.DismissReason.cancel) {
-                    Swal.fire(
-                    'Cancelled',
-                    'Your data is safe :)',
-                    'error'
-                    )
-                }
-            })
-    	});
-    });
+					// For more information about handling dismissals please visit
+					// https://sweetalert2.github.io/#handling-dismissals
+				} else if (result.dismiss === Swal.DismissReason.cancel) {
+					Swal.fire(
+						'Cancelled',
+						'Your data is safe :)',
+						'error'
+					)
+				}
+			})
+		});
+
+		$('#btn-admin-logout').click(function(event) {
+			event.preventDefault();
+			document.getElementById('logout-form').submit();
+		});
+	});
 </script>
 @endsection

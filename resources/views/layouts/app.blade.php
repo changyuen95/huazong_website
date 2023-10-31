@@ -9,7 +9,7 @@
 
 
     <meta name="description" content="huazong 华总">
-    <meta property="og:title" content="huazong - 大马华总"/>
+    <meta property="og:title" content="huazong - 大马华总" />
     <meta property="og:description" content="全新的“大马华总”网站，包括了华总的网址、脸书账号、Instagram账号及一系列的邮箱账号等。" />
     <meta property="og:url" content="https://dama-huazong.com/" />
     <meta property="og:type" content="website" />
@@ -168,8 +168,11 @@
     <script src="/assets/js/jquery.circleType.js"></script>
 
     <!-- Custom Scripts -->
+    <script>
+        var activityIndexApi = "{{ route('activity.index') }}";
+    </script>
     <script src="/assets/js/theme.js"></script>
-
+    <script src="/assets/js/huazong_custom.js"></script>
 </body>
 
 </html>
