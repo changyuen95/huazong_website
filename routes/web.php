@@ -60,9 +60,14 @@ Route::get('contact_us', function(){
     return view('contact_us');
 });
 
+Route::get('huazong-education-fund-charity-golf', function () {
+    return view('charity_golf');
+});
+
 Route::get('/{any}', function () {
     return view('comingsoon');
 });
+
 
 Auth::routes();
 
