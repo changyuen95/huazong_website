@@ -48,6 +48,11 @@
         font-size: 30px;
     }
 
+    .hover_effect:hover{
+        transform: scale(1.05);
+        transition: 1s;
+    }
+
 
 
     @media(max-width: 576px)
@@ -109,7 +114,7 @@
                 <div><span class="golf-title3"><b>慈善高尔夫球</b></span></div>
             </div>
             <div class="col-12 col-lg-5 mt-lg-n5 mt-0 golf-bg text-center text-lg-left">
-                <img style="margin-left: 25px;" src="/assets/images/charity-golf/golf.png" width="70%">
+                <img style="margin-left: 25px;" class="hover_effect" src="/assets/images/charity-golf/golf.png" width="70%">
             </div>
         </div>
     </section>
@@ -117,7 +122,7 @@
     <section>
         <div class="mt-5 row decoration1-bg" >
             <div class="col-12 col-md-4 col-lg-4">
-                <img src="/assets/images/charity-golf/golf-guy.png" class="golf-guy-img" style="margin-top: -100px;">
+                <img src="/assets/images/charity-golf/golf-guy.png" class="golf-guy-img hover_effect" style="margin-top: -100px;">
             </div>
             <div class="col-1">
                 {{-- purposely make empty one column --}}
@@ -141,7 +146,7 @@
                         <div class="col-lg-7 col-12">
                             <div style="background-color: rgba(255,243,234,0.5); border-radius: 15px" class="py-2">
                                 <div class="text-left pl-4 pl-lg-5 py-3" style="background-color: #fff3ea; border-radius: 15px">
-                                    <ul class="pl-0 pl-lg-3" style="list-style-type: none; margin:0px">
+                                    <ul class="pl-0 pl-lg-3 hover_effect" style="list-style-type: none; margin:0px">
                                         <span class="info_card_text"><b>报名请联系：<a style="color: #40544c;" href="tel:+60124411067">+60124411067</b></a></span>
                                     </ul>
                                 </div>
