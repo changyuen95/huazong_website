@@ -1,63 +1,155 @@
 @extends('layouts.app')
 
 @section('content')
+<style>
+    .golf-title1{
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    .golf-title2{
+        font-size: 65px; 
+        color:#ffdcc4
+    }
+
+    .golf-title3{
+        font-size: 85px; 
+        color:#ff8a68;
+    }
+
+    .golf-bg{
+        background: url(/assets/images/charity-golf/decoration3.png); 
+        background-size: 600px;
+        background-repeat: no-repeat;
+        background-position-x: left;
+        background-position-y: center;
+    }
+
+    .golf-guy-img{
+        width:175%
+    }
+
+    .decoration1-bg{
+        background: url(/assets/images/charity-golf/decoration1.png); 
+        background-size: 600px;
+        background-repeat: no-repeat;
+    }
+
+    .decoration2-bg{
+        background: url(/assets/images/charity-golf/decoration2.png); 
+        background-size: 250px;
+        background-repeat: no-repeat;
+        background-position-x: right
+    }
+
+    .info_card_text{
+        color: #40544c;
+        line-height:50px;
+        font-size: 30px;
+    }
+
+
+
+    @media(max-width: 576px)
+    {
+        .golf-title1{
+            font-size: 20px;
+        }
+
+        .golf-title2{
+            font-size: 35px; 
+            color:#ffdcc4
+        }
+
+        .golf-title3{
+            font-size: 55px; 
+            color:#ff8a68;
+        }
+
+        .golf-bg{
+            background-size: 280px;
+            background-position-x: center;
+        }
+
+        .golf-guy-img{
+            width:50%
+        }
+
+        .decoration1-bg{
+            background-size: 150px;
+        }
+
+        .decoration2-bg{
+            background-size: 100px;
+        }
+
+        .info_card_text{
+            font-size: 20px;
+            line-height: 32px;
+        }
+
+
+    }
+
+</style>
+
 <div class="preloader">
     <div class="lds-ripple">
         <div></div>
         <div></div>
     </div>
 </div><!-- /.preloader -->
-<div class="page-wrapper"  style="background-color: #ffdcc4">
+<div class="page-wrapper" style="background-color: #ffdcc4">
 
     <section>
-        <div class="mt-5 row" style="background-color: #40544c; height: 450px;">
-            <div class="col-8 text-center my-auto">
-                <span class="text-white" style="font-size: 45px">EDUCATION FUND CHARITY GOLF</span><br/><br/><br/>
-                <span style="font-size: 65px; color:#ffdcc4"><b>华总教育基金活动</b></span><br/><br/><br/>
-                <span style="font-size: 85px; color:#ff8a68"><b>慈善高尔夫球</b></span>
+        <div class="mt-5 row d-block d-lg-flex pb-3 pb-lg-0" style="background-color: #40544c;">
+            <div class="col-lg-7 col-12 text-center my-auto pl-lg-5 py-4">
+                <div class="mb-4 mb-lg-5"><span class="text-white golf-title1" style="">EDUCATION FUND CHARITY GOLF</span><br/></div>
+                <div class="mb-4 mb-lg-5"><span class="golf-title2 "><b>华总教育基金活动</b></span><br/></div>
+                <div><span class="golf-title3"><b>慈善高尔夫球</b></span></div>
             </div>
-            <div class="col-4 "style="margin-top: -30px">
-                <img src="/assets/images/charity-golf/golf.png" width="80%">
+            <div class="col-12 col-lg-5 mt-lg-n5 mt-0 golf-bg text-center text-lg-left">
+                <img style="margin-left: 25px;" src="/assets/images/charity-golf/golf.png" width="70%">
             </div>
         </div>
     </section>
 
     <section>
-        <div class="mt-5 row">
-            <div class="col-4">
-                <img src="/assets/images/charity-golf/golf-guy.png" width="175%" style="margin-top: -100px;">
+        <div class="mt-5 row decoration1-bg" >
+            <div class="col-12 col-md-4 col-lg-4">
+                <img src="/assets/images/charity-golf/golf-guy.png" class="golf-guy-img" style="margin-top: -100px;">
             </div>
             <div class="col-1">
-
+                {{-- purposely make empty one column --}}
             </div>
-            <div class="col-7">
-                <div class="container" style="padding-left:0px;padding:right:0px">
-                    <div class="content-box text-left mb-3" style="padding-right: 150px">
+            <div class="col-12 col-md-7 col-lg-7 py-3 py-lg-4 decoration2-bg">
+                <div class="container" >
+                    <div class="content-box text-lg-left text-justify mb-3 pr-lg-5 px-5">
                         <span class="h3" style="color: #40544c; line-height:40px"><b>与我们一起欢庆马来西亚与南非外交关系建立30周年的慈善高尔夫球赛中, 为华总教育基金贡献力量, 为慈善尽一份心意</b></h4>
                     </div>
                     <div style="background-color: rgba(255,243,234,0.5); border-radius: 30px" class="py-3">
-                        <div class="text-left pl-5 py-3" style="background-color: #fff3ea; border-radius: 30px">
-                            <ul style="list-style-type: none; margin:0px">
-                                <li><span class="h3" style="color: #40544c; line-height:50px"><b>日期 》15 . 10 . 2023 ( 星期三 )</b></h4></li>
-                                <li><span class="h3" style="color: #40544c; line-height:50px;"><b>地点 》<a href="https://maps.app.goo.gl/eVLcCjw2zgEr7zs96" style="color: #40544c;" target="_blank">Tropicana Golf & Country Resort</a></b></h4></li>
-                                <li><span class="h3" style="color: #40544c; line-height:50px"><b>时间 》下午12时</b></h4></li>
+                        <div class="text-left pl-4 pl-lg-5 py-3" style="background-color: #fff3ea; border-radius: 30px">
+                            <ul class="pl-0 pl-lg-3" style="list-style-type: none; margin:0px">
+                                <li><span class="info_card_text"><b>日期 》15 . 11 . 2023 ( 星期三 )</b></h4></li>
+                                <li><span class="info_card_text"><b>地点 》<a href="https://maps.app.goo.gl/eVLcCjw2zgEr7zs96" style="color: #40544c;" target="_blank">Tropicana Golf & Country Resort</a></b></h4></li>
+                                <li><span class="info_card_text"><b>时间 》下午12时</b></h4></li>
                             </ul>
                         </div>
                     </div>
                     <br/>
                     <div class="row">
-                        <div class="col-7">
+                        <div class="col-lg-7 col-12">
                             <div style="background-color: rgba(255,243,234,0.5); border-radius: 15px" class="py-2">
-                                <div class="text-left pl-5 py-3" style="background-color: #fff3ea; border-radius: 15px">
-                                    <ul style="list-style-type: none; margin:0px">
-                                        <span class="h3" style="color: #40544c; line-height:50px"><b>报名请联系：<a style="color: #40544c;" href="tel:+60124411067">+60124411067</b></a></span>
+                                <div class="text-left pl-4 pl-lg-5 py-3" style="background-color: #fff3ea; border-radius: 15px">
+                                    <ul class="pl-0 pl-lg-3" style="list-style-type: none; margin:0px">
+                                        <span class="info_card_text"><b>报名请联系：<a style="color: #40544c;" href="tel:+60124411067">+60124411067</b></a></span>
                                     </ul>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="col-5 mt-3">
-                            <div class="row justify-content-end mr-3">
+                        <div class="col-lg-5 col-12 mt-3">
+                            <div class="row justify-content-lg-end mx-3 mr-lg-3">
                                 <span class="h4 mb-3" style="color: black;"><b>支持单位：</b></a></span>
                             </div>
                             <div class="row justify-content-end mr-3">
@@ -68,10 +160,10 @@
                         </div>
                     </div>
                     <br/>
-                    <div class="row justify-content-end mr-3">
+                    <div class="row justify-content-lg-end mx-3 mr-lg-3">
                         <span class="h4 mb-3" style="color: black;"><b>感谢赞助：</b></a></span>
                     </div>
-                    <div class="row justify-content-start">
+                    <div class="row justify-content-lg-start justify-content-center mb-3">
                         <img src="/assets/images/charity-golf/sponsor-logos.png" width="95%">
                     </div>
                 </div>
