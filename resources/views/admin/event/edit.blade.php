@@ -127,22 +127,7 @@
 									@enderror
 								</div>
 
-								<div class="form-group">
-									<label for="event_group">Group</label>
-									<select name="event_group" class="form-control col-3" required>
-										<option value="" disabled>Please select a group</option>
-										@foreach($groups as $group)
-										<option value="{{ $group->id }}" {{ $event->group_id == $group->id ? 'selected' : '' }}>{{ $group->name }}</option>
-										@endforeach
-									</select>
-									@error('event_group')
-									<span class="invalid-feedback d-block" role="alert">
-										<strong>{{ $message }}</strong>
-									</span>
-									@enderror
-								</div>
-
-
+								@if(auth()->user()->hasPermissionTo(App\Library\PermissionTag::PERMISSION_FOR_SUPER_ADMIN))
 								<div class="form-group">
 									<label for="event_status">Status</label>
 									<select name="event_status" class="form-control col-3" required>
@@ -157,6 +142,7 @@
 									</span>
 									@enderror
 								</div>
+								@endif
 							</div>
 							<!-- /.card-body -->
 							<div class="card-footer">

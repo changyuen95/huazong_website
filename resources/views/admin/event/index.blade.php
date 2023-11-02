@@ -5,6 +5,7 @@
 @section('content')
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
+	<div class="event-loading-spinner"></div>
 	<!-- Content Header (Page header) -->
 	<section class="content-header">
 		<div class="container-fluid">
@@ -51,7 +52,7 @@
 						</div>
 					</div>
 					<!-- /.card-header -->
-					<div class="card-body">
+					<div class="card-body event_table_body d-none">
 						<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 							<div class="modal-dialog modal-md" role="document">
 								<div class="modal-content">
@@ -69,6 +70,21 @@
 							</div>
 						</div>
 						<div class="table-responsive">
+							<div class="row event_status_filter_section justify-content-end">
+								<div class="col col-md-2 d-flex justify-content-end align-items-center">
+									Status:
+								</div>
+								<div class="col-4 col-md-2 input-group">
+									<select class="event_filter_select custom-select">
+										<option value="Pending" {{ request()->query('status') == 'Pending' ? 'selected' : '' }}>Pending</option>
+										<option value="Active " {{ request()->query('status') == 'Active' ? 'selected' : '' }}>Active</option>
+										<option value="Rejected" {{ request()->query('status') == 'Rejected' ? 'selected' : '' }}>Rejected</option>
+										<option value="Cancelled" {{ request()->query('status') == 'Cancelled' ? 'selected' : '' }}>Cancelled</option>
+										<option value="Inactive" {{ request()->query('status') == 'Inactive' ? 'selected' : '' }}>Inactive</option>
+									</select>
+								</div>
+							</div>
+
 							<table id="event-admin-table" class="table table-bordered table-striped">
 								<thead>
 									<tr>
@@ -146,7 +162,6 @@
 
 @section('script')
 <script>
-	// console.log('oii');
 	$(document).ready(function() {
 		$('#event-admin-table').DataTable({
 			'stateSave': true,
@@ -230,6 +245,30 @@
 			event.preventDefault();
 			document.getElementById('logout-form').submit();
 		});
+
+
+		// Filter Event Status
+		$(".event_filter_select").on('change', function(event) {
+			let eventSearch = "{{ route('admin.event.search') }}" + "?status=" + event.target.value
+
+			$.ajax({
+				url: eventSearch,
+				method: "get",
+				success: function(response) {
+					window.location.href = eventSearch
+				}
+			})
+		})
+
+		$('.event-loading-spinner').hide().ajaxStart(function() {
+			$(this).show(); // show Loading Div
+		}).ajaxStop(function() {
+			$(this).hide(); // hide loading div
+		})
+
+		$('.event_table_body').removeClass('d-none');
+
+
 	});
 </script>
 @endsection

@@ -71,7 +71,6 @@ class EventController extends Controller
                 'title' => $payload['event_name'],
                 'content' => $payload['event_description'],
                 'publish_date' => $formattedDate,
-                'status' => $payload['event_status'],
                 'created_by' => $admin->id
             ]);
 
@@ -121,7 +120,7 @@ class EventController extends Controller
                 'title' => $payload['event_name'],
                 'content' => $payload['event_description'],
                 'publish_date' => $formattedDate,
-                'status' => $payload['event_status'],
+                'status' => isset($payload['event_status']) ? $payload['event_status'] : "Pending",
                 'created_by' => $admin->id
             ]);
 
@@ -144,6 +143,17 @@ class EventController extends Controller
         $event->images()->delete();
 
         return response()->json(['success' => $event]);
+    }
+
+
+    public function filterEventStatus(Request $request)
+    {
+        $events = Event::orderByDesc('publish_date')
+            ->orderByDesc('created_at')
+            ->where('status', $request->status)
+            ->get();
+
+        return view('admin.event.index', compact('events'));
     }
 
     public function uploadCKImage(Request $request)

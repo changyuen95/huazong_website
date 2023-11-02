@@ -28,7 +28,7 @@ class EventRequest extends FormRequest
             'event_date' => ['nullable'],
             'main_banner' => ['nullable', 'image', 'mimes:jpeg,png,jpg,gif,svg', 'max:50000'],
             'details_banner' => ['nullable', 'image', 'mimes:jpeg,png,jpg,gif,svg', 'max:50000'],
-            'event_status' => ['required'],
+            'event_status' => ['nullable'],
             'created_by' => ['numeric']
         ];
     }

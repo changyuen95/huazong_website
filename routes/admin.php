@@ -27,6 +27,7 @@ Route::post('logout', [AuthController::class, 'logout']);
 
 Route::middleware("auth:admin")->group(
     function () {
+        Route::get('search/event', [EventController::class, 'filterEventStatus'])->name('admin.event.search');
         Route::resource("event", "EventController");
         Route::get('dashboard', [EventController::class, 'index'])->name('dashboard');
         Route::post("ckeditor/image/upload", [EventController::class, 'uploadCKImage'])->name("ckeditor.upload.image");

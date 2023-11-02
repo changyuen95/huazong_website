@@ -43,7 +43,7 @@
 							<!-- form start -->
 							<div class="card-body">
 								<div class="form-group">
-									<label for="event_name">Name</label>
+									<label for="event_name">Title</label>
 									<input type="text" class="form-control  @error('event_name') is-invalid @enderror" id="event_name" name="event_name" placeholder="Enter name.." value="{{old('event_name')}}">
 									@error('event_name')
 									<span class="invalid-feedback d-block" role="alert">
@@ -54,7 +54,7 @@
 								{{-- Point --}}
 
 								<div class="form-group">
-									<label for="event_description">Description & Itinerary</label>
+									<label for="event_description">Content</label>
 									{{-- <textarea name="event_description" id="event_description" class="form-control @error('event_description') is-invalid @enderror" cols="100" rows="15" placeholder="Write message.."></textarea> --}}
 									<textarea class="form-control" name="event_description">{{ old('event_description') }}</textarea>
 									@error('event_description')
@@ -193,40 +193,6 @@
 									</span>
 									@enderror
 								</div> -->
-
-							<div class="form-group">
-								<label for="event_group">Group</label>
-								<select name="event_group" class="form-control col-3" required>
-									<option value="" disabled>Please select a group</option>
-									@foreach($groups as $group)
-									<option value="{{ $group->id }}">{{ $group->name }}</option>
-									@endforeach
-								</select>
-								@error('event_group')
-								<span class="invalid-feedback d-block" role="alert">
-									<strong>{{ $message }}</strong>
-								</span>
-								@enderror
-							</div>
-
-
-							<div class="form-group">
-								<label for="event_status">Status</label>
-								<select name="event_status" class="form-control col-3" required>
-									<option value="" disabled>Please select a status</option>
-
-									<option value="Pending">Pending</option>
-									<option value="Approved">Approved(Active)</option>
-									<option value="Rejected">Rejected(Inactive)</option>
-									<!-- <option value="" >Pending</option> -->
-								</select>
-								@error('event_status')
-								<span class="invalid-feedback d-block" role="alert">
-									<strong>{{ $message }}</strong>
-								</span>
-								@enderror
-							</div>
-
 						</div>
 						<!-- /.card-body -->
 						<div class="card-footer">
