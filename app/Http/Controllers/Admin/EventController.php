@@ -149,9 +149,13 @@ class EventController extends Controller
     public function filterEventStatus(Request $request)
     {
         $events = Event::orderByDesc('publish_date')
-            ->orderByDesc('created_at')
-            ->where('status', $request->status)
-            ->get();
+            ->orderByDesc('created_at');
+
+        if ($request->status != "All") {
+            $events->where('status', $request->status);
+        }
+
+        $events = $events->get();
 
         return view('admin.event.index', compact('events'));
     }

@@ -76,6 +76,7 @@
 								</div>
 								<div class="col-4 col-md-2 input-group">
 									<select class="event_filter_select custom-select">
+										<option value="All" {{ request()->query('status') == 'All' ? 'selected' : '' }}>All</option>
 										<option value="Pending" {{ request()->query('status') == 'Pending' ? 'selected' : '' }}>Pending</option>
 										<option value="Active " {{ request()->query('status') == 'Active' ? 'selected' : '' }}>Active</option>
 										<option value="Rejected" {{ request()->query('status') == 'Rejected' ? 'selected' : '' }}>Rejected</option>
