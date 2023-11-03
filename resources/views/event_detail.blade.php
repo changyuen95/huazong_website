@@ -95,7 +95,7 @@
                         <div class="sidebar__single">
                             <h3 class="sidebar__title">类别</h3>
                             <ul class="list-unstyled sidebar__cat-list">
-                                <li><a href="#">{{ $event->group->name }}</a></li>
+                                <li><a href="#">{{ $event->host->group->name ?? '-' }}</a></li>
                             </ul><!-- /.list-unstyled sidebar__cat-list -->
                         </div><!-- /.sidebar__single -->
                         <div class="sidebar__single">

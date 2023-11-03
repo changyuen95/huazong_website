@@ -123,6 +123,18 @@
 								@enderror
 							</div>
 
+							<div class="form-group">
+								<div><label>Details Banner</label></div>
+								<div class="custom-control custom-radio custom-control-inline details-banner-radio-div">
+									<input type="radio" id="detailsRadioEnable" name="customRadioInline" class="details-banner-radio custom-control-input" value="enable" checked>
+									<label class="custom-control-label" for="detailsRadioEnable">Enable</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline details-banner-radio-div">
+									<input type="radio" id="detailsRadioDisable" name="customRadioInline" class="details-banner-radio custom-control-input" value="disable">
+									<label class="custom-control-label" for="detailsRadioDisable">Disable</label>
+								</div>
+							</div>
+
 
 							<div class="form-group">
 								<div class="d-flex flex-wrap">
@@ -142,7 +154,7 @@
 							</div>
 
 
-							<div class="form-group">
+							<div class="form-group event-details-banner-section">
 								<label for="customFile">Event Details Banner <i class="fa fa-info-circle" aria-hidden="true" data-html="true" data-toggle="tooltip" data-placement="right" title="Supported Formats<br>Image - jpg, jpeg, gif, png, bmp<br>Video - mp4, webm, ogg, mov"></i></label>
 								<div class="custom-file">
 									<input type="file" id="file-upload-two" name="details_banner" class="custom-file-input @error('details_banner') is-invalid @enderror" accept=".jpg,.jpeg,.png">
@@ -245,6 +257,16 @@
 
 		document.getElementById('file-upload').addEventListener('change', handleDisplayImage);
 		document.getElementById('file-upload-two').addEventListener('change', handleDisplayImage);
+
+		$(".details-banner-radio").change(function(event) {
+			console.log(event.target.value);
+
+			$(".event-details-banner-section").removeClass("d-none");
+
+			if (event.target.value == 'disable') {
+				$(".event-details-banner-section").addClass("d-none");
+			}
+		});
 
 
 		function handleDisplayImage(event) {

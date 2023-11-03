@@ -109,7 +109,7 @@
 										<td>{{!empty($event->content) ? strip_tags($event->content) : '-'}}</td>
 										<td>{{!empty($event->publish_date) ? Carbon::parse($event->publish_date)->format('Y-m-d H:i:s') : '-'}}</td>
 										<td>{{!empty($event->host) ? $event->host->name : '-'}}</td>
-										<td>{{!empty($event->group) ? $event->group->name : '-'}}</td>
+										<td>{{!empty($event->host) ? $event->host->group->name : '-'}}</td>
 										<td>{{$event->status}}</td>
 										<td>{{Carbon::parse($event->created_at)->format('Y-m-d H:i:s')}}</td>
 										<td>
