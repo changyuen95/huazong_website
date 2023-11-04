@@ -115,9 +115,24 @@
         width:88%
     }
 
+    .info_img:hover{
+        transform: translateX(20px);
+        transition: 1s;
+    }
+
     .golf-img{
         margin-top: -150px;
         width:90%;
+    }
+
+    .golf-img:hover{
+        transform: scale(110%);
+        transition: 1s;
+    }
+
+    .img_hover:hover{
+        box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+        transition: 0.5s;
     }
 
 
@@ -260,7 +275,7 @@
             <div class="row mt-5">
                 <div class="col-9 col-lg-6">
                     <img src="/assets/images/charity-golf/date-element.png" class="info_img"><br><br>
-                    <img src="/assets/images/charity-golf/location-element.png" class="info_img"><br><br>
+                    <a href="https://maps.app.goo.gl/LRR9NvX4hu4k5g5N9" target="__blank"><img src="/assets/images/charity-golf/location-element.png" class="info_img"></a><br><br>
                     <img src="/assets/images/charity-golf/time-element.png" class="info_img">
                 </div>
                 <div class="col-3 col-lg-6" style="text-align: end;">
@@ -308,7 +323,7 @@
             </div>
 
             <div class="col-lg-10 col-12 text-center my-auto pl-lg-5 pb-3 px-5">
-                <img src="/assets/images/charity-golf/graduation.png" width="85%">
+                <img src="/assets/images/charity-golf/graduation.png" class="img_hover" width="85%">
             </div>
 
         </div>
@@ -318,7 +333,8 @@
         <div class="row d-lg-flex pb-3 pb-lg-0 py-0 py-lg-5 my-4 justify-content-center" style="background-color: #39594b;">
             <div class="row my-4 my-lg-0">
                 <div class="text-center">
-                    <span class="h1 font-weight-bold" style="color:#ff8a68;">RM3,500/个人</span>
+                    <span class="h1 font-weight-bold" style="color:#ff8a68;">RM3,500/个人</span><br/>
+                    <img src="/assets/images/charity-golf/line.png">
                 </div>
             </div>
             <br/>
@@ -326,7 +342,7 @@
                 <div class="col-12 col-lg-6 text-center pl-lg-5 py-4 px-5" style="border-right: 4px dotted; border-color: white">
                     <div class="row">
                         <div class="col-5 col-lg-6">
-                            <img class="pb-n5" src="/assets/images/charity-golf/wine.png" width="85%">
+                            <img class="pb-n5 hover_effect" src="/assets/images/charity-golf/wine.png" width="85%">
                         </div>
                         <div class="col-7 col-lg-6" style="line-height: 45px">
                             <div class="h1"><span class="" style="color:#FFDFC5;">RM2,000</span></div><br/>
@@ -409,7 +425,7 @@
     <section>
         <div class="mt-5 row d-block d-lg-flex pb-3 pb-lg-0 py-0 justify-content-center" style="color:#40544c;">
             <div class="col-lg-6 col-12 text-center my-auto pl-lg-5 py-3 px-4">
-                <img class="mb-4" src="/assets/images/charity-golf/ambassador.png" width="75%"><br/>
+                <img class="mb-4 img_hover" src="/assets/images/charity-golf/ambassador.png" width="75%"><br/>
                 <div class="px-5 text-left py-3 px-5" style="line-height: 45px">
                     <div class="pb-lg-1 pb-0">
                         <span class="responsive-text mb-5">
@@ -423,7 +439,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-12 text-center my-auto pl-lg-5 py-3 px-4">
-                <img class="mb-4" src="/assets/images/charity-golf/president-huazong.png" width="75%"><br/>
+                <img class="mb-4 img_hover" src="/assets/images/charity-golf/president-huazong.png" width="75%"><br/>
                 <div class="px-5 text-left py-3 px-5" style="line-height: 45px">
                     <div class="pb-lg-1 pb-0">
                         <span class="responsive-text">
