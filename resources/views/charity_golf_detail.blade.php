@@ -16,6 +16,7 @@
     .golf-title3{
         font-size: 125px;
         color:#ff8a68;
+        line-height: 150px;
     }
 
     .golf-bg{
@@ -32,7 +33,7 @@
 
     .decoration-bg{
         background: url(/assets/images/charity-golf/element.png);
-        background-size: 800px;
+        background-size: 730px;
         background-repeat: no-repeat;
         background-position-x: right;
         background-position-y: bottom;
@@ -96,13 +97,43 @@
     }
 
     .responsive-title{
-        font-size: 56px; 
-        color: #40544c; 
+        font-size: 56px;
+        color: #40544c;
         font-weight: 500
     }
 
     .responsive-text{
         font-size: 28px;
+    }
+
+    .deco_responsive{
+        width:40%;
+        margin-top: -100px;
+    }
+
+    .info_img{
+        width:88%
+    }
+
+    .golf-img{
+        margin-top: -150px;
+        width:90%;
+    }
+
+
+    @media (min-width: 577px) and (max-width: 992px){
+        .golf-img{
+            margin-top: 150px;
+            width:90%;
+        }
+
+        .golf-title-3{
+            line-height: 150px;
+        }
+        .deco_responsive{
+            width:100%;
+            margin-top: 0px;
+        }
     }
 
 
@@ -120,6 +151,7 @@
         .golf-title3{
             font-size: 35px;
             color:#ff8a68;
+            line-height: 10px;
         }
 
         .golf-bg{
@@ -160,20 +192,34 @@
 
         .decoration-bg{
             background: url(/assets/images/charity-golf/element.png);
-            background-size: 100px;
+            background-size: 200px;
             background-repeat: no-repeat;
             background-position-x: right;
             background-position-y: bottom;
         }
 
         .responsive-title{
-            font-size: 36px; 
-            color: #40544c; 
+            font-size: 36px;
+            color: #40544c;
             font-weight: 500
         }
 
         .responsive-text{
             font-size: 20px;
+        }
+
+        .deco_responsive{
+            width:150%;
+            margin-top: 0px;
+        }
+
+        .info_img{
+            width:100%
+        }
+
+        .golf-img{
+            margin-top: 0px;
+            width:60%;
         }
 
 
@@ -202,7 +248,7 @@
     <section>
         <div class="mt-5 row d-block d-lg-flex pb-3 pb-lg-0 py-0 py-lg-5 justify-content-center" style="background-color: #405c4c;">
             <div class="col-lg-10 col-12 text-center my-auto pl-lg-5 py-4 px-5">
-                <div class="mb-2 mb-lg-5"><span class="golf-title2 ">华总教育基金</span></div><br/>
+                <div class="mb-2 mb-lg-5 pt-md-5 pt-0 pt-lg-0"><span class="golf-title2 ">华总教育基金</span></div><br/>
                 <div class="mb-3 mb-lg-5"><span class="golf-title3"><b>慈善高尔夫球活动</b></span></div>
                 <div class="px-lg-5 px-0 mx-lg-5 text-justify"><span class="golf-title1" style="">与我们一起欢庆马来西亚与南非外交关系建立30周年的慈善高尔夫球赛中, 为华总教育基金贡献力量, 为慈善尽一份心意。</span><br/></div>
             </div>
@@ -212,32 +258,32 @@
     <section>
         <div class="decoration-bg" >
             <div class="row mt-5">
-                <div class="col-10 col-6">
-                    <img src="/assets/images/charity-golf/date-element.png" width="88%"><br><br>
-                    <img src="/assets/images/charity-golf/location-element.png" width="88%"><br><br>
-                    <img src="/assets/images/charity-golf/time-element.png" width="88%">
+                <div class="col-9 col-lg-6">
+                    <img src="/assets/images/charity-golf/date-element.png" class="info_img"><br><br>
+                    <img src="/assets/images/charity-golf/location-element.png" class="info_img"><br><br>
+                    <img src="/assets/images/charity-golf/time-element.png" class="info_img">
                 </div>
-                <div class="col-2 col-6" style="text-align: end;">
-                    <img style="margin-top: -100px" src="/assets/images/charity-golf/decoration4.png" width="40%">
+                <div class="col-3 col-lg-6" style="text-align: end;">
+                    <img class="deco_responsive" style="" src="/assets/images/charity-golf/decoration4.png">
                 </div>
             </div>
             <div class="row">
-                <div class="col-5 px-5">
-                    <div class="mr-5 pl-2" style="border: solid; border-color: #965441; border-width: 5px;">
-                        <span class="h2">乐意捐款</span><br><br/>
+                <div class="col-lg-5 col-12 px-5 py-3">
+                    <div class="mr-0 mr-lg-5 pl-2 pt-3" style="border: solid; border-color: #965441; border-width: 5px;">
+                        <span class="responsive-text">乐意捐款</span><br><br/>
                         <div class="mb-3">
-                            <span class="h2"><b>BANK OF CHINA</b></span><br>
-                            <span class="h2"><b>Account Number:</b></span><br>
-                            <span class="h2"><b>100000403205318</b></span><br>
+                            <span class="responsive-text"><b>BANK OF CHINA</b></span><br>
+                            <span class="responsive-text"><b>Account Number:</b></span><br>
+                            <span class="responsive-text"><b>100000403205318</b></span><br>
                         </div>
                         <div class="mb-3">
-                            <span class="h2"><b>Account Holder:</b></span><br>
-                            <span class="h2"><b>The Federation of Chinese Associations Malaysia</b></span><br>
+                            <span class="responsive-text"><b>Account Holder:</b></span><br>
+                            <span class="responsive-text"><b>The Federation of Chinese Associations Malaysia</b></span><br>
                         </div>
                     </div>
                 </div>
-                <div class="col-7" style="text-align: end;">
-                    <img style="margin-top: -150px" src="/assets/images/charity-golf/golf-wif-shadow.png" width="90%">
+                <div class="col-lg-7 col-12" style="text-align: end;">
+                    <img class="golf-img" src="/assets/images/charity-golf/golf-wif-shadow.png">
                 </div>
             </div>
         </div>
