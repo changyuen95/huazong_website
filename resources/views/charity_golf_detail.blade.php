@@ -95,6 +95,16 @@
         width:300px
     }
 
+    .responsive-title{
+        font-size: 56px; 
+        color: #40544c; 
+        font-weight: 500
+    }
+
+    .responsive-text{
+        font-size: 28px;
+    }
+
 
     @media(max-width: 576px)
     {
@@ -148,6 +158,24 @@
             width:110px
         }
 
+        .decoration-bg{
+            background: url(/assets/images/charity-golf/element.png);
+            background-size: 100px;
+            background-repeat: no-repeat;
+            background-position-x: right;
+            background-position-y: bottom;
+        }
+
+        .responsive-title{
+            font-size: 36px; 
+            color: #40544c; 
+            font-weight: 500
+        }
+
+        .responsive-text{
+            font-size: 20px;
+        }
+
 
     }
 
@@ -184,12 +212,12 @@
     <section>
         <div class="decoration-bg" >
             <div class="row mt-5">
-                <div class="col-6">
+                <div class="col-10 col-6">
                     <img src="/assets/images/charity-golf/date-element.png" width="88%"><br><br>
                     <img src="/assets/images/charity-golf/location-element.png" width="88%"><br><br>
                     <img src="/assets/images/charity-golf/time-element.png" width="88%">
                 </div>
-                <div class="col-6" style="text-align: end;">
+                <div class="col-2 col-6" style="text-align: end;">
                     <img style="margin-top: -100px" src="/assets/images/charity-golf/decoration4.png" width="40%">
                 </div>
             </div>
@@ -251,10 +279,10 @@
             <div class="row">
                 <div class="col-12 col-lg-6 text-center pl-lg-5 py-4 px-5" style="border-right: 4px dotted; border-color: white">
                     <div class="row">
-                        <div class="col-6">
-                            <img class="pb-n5" src="/assets/images/charity-golf/wine.png" width="70%">
+                        <div class="col-5 col-lg-6">
+                            <img class="pb-n5" src="/assets/images/charity-golf/wine.png" width="85%">
                         </div>
-                        <div class="col-6" style="line-height: 45px">
+                        <div class="col-7 col-lg-6" style="line-height: 45px">
                             <div class="h1"><span class="" style="color:#FFDFC5;">RM2,000</span></div><br/>
                             <div class="h4"><span style="color:#FFDFC5;">捐赠于华总教育基金</span></div>
                             <span class="h4" style="color:#FFDFC5;">捐赠者将获得 一瓶1.5公升的DE KLERK总统签名佳酿葡萄酒 作为感谢!</span>
@@ -281,13 +309,13 @@
     </section>
 
     <section>
-        <div class="mt-5 row d-block d-lg-flex pb-3 pb-lg-0 py-0 justify-content-center" style="color:#40544c;">
-            <div class="col-lg-5 col-12 text-left pl-lg-5 px-4">
+        <div class="mt-5 row d-block d-lg-flex pb-lg-0 py-0 justify-content-center" style="color:#40544c;">
+            <div class="col-lg-5 col-12 text-left pl-lg-5 px-5">
                 <div class="row ml-0">
-                    <div class="display-4 font-weight-bold mb-3"><span>流程</span></div>
+                    <div class="responsive-title font-weight-bold mb-3"><span>流程</span></div>
                 </div>
-                <div class="row">
-                    <div class="col-4 col-lg-3 h3" style="line-height: 60px">
+                <div class="row mb-5 mb-lg-0">
+                    <div class="col-4 col-lg-3 responsive-text" style="line-height: 53px">
                         <span>12时</span><br/>
                         <span>1时</span><br/>
                         <span>1:15时</span><br/>
@@ -295,7 +323,7 @@
                         <span>6:30时</span><br/>
                         <span>7时</span><br/>
                     </div>
-                    <div class="col-8 col-lg-9 h3" style="line-height: 60px">
+                    <div class="col-8 col-lg-9 responsive-text" style="line-height: 53px">
                         <span>- 签到&享用午餐</span><br/>
                         <span>- 活动简介</span><br/>
                         <span>- 群体大合照</span><br/>
@@ -305,27 +333,27 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7 col-12 text-left my-auto pl-lg-5 pr-5">
-                <div class="display-4 font-weight-bold mb-3"><span>NOVELTY HOLES</span></div>
-                <div class="h3"><span><b>4 x</b> 一杆进洞</span></div>
+            <div class="col-lg-7 col-12 text-left my-auto pl-lg-5 px-5" style="line-height: 40px">
+                <div class="responsive-title font-weight-bold mb-3"><span>NOVELTY HOLES</span></div>
+                <div class="responsive-text"><span><b>4 x</b> 一杆进洞</span></div>
                 <ul>
-                    <li class="list2 h3 pl-4">Hole 3 - RM50,000 + TaylorMade 全套高尔夫球杆 Namjoo Tan赞助</li>
-                    <li class="list2 h3 pl-4">Hole 8 - 150-2亿抗衰老干细胞(间充质干细胞) 治疗值RM90000 Cellvation Sdn Bhd 赞助</li>
-                    <li class="list2 h3 pl-4">Hole 13 - RM50,000现金+一套四瓶1.5公升总统签名 佳酿葡萄酒 Namjoo Tan赞助</li>
-                    <li class="list2 h3 pl-4">Hole 17 - 150-2亿抗衰老干细胞(间充质干细胞) 治疗值RM90000 Cellvation Sdn Bhd 赞助</li>
+                    <li class="list2 responsive-text pl-4">Hole 3 - RM50,000 + TaylorMade 全套高尔夫球杆 Namjoo Tan赞助</li>
+                    <li class="list2 responsive-text pl-4">Hole 8 - 150-2亿抗衰老干细胞(间充质干细胞) 治疗值RM90000 Cellvation Sdn Bhd 赞助</li>
+                    <li class="list2 responsive-text pl-4">Hole 13 - RM50,000现金+一套四瓶1.5公升总统签名 佳酿葡萄酒 Namjoo Tan赞助</li>
+                    <li class="list2 responsive-text pl-4">Hole 17 - 150-2亿抗衰老干细胞(间充质干细胞) 治疗值RM90000 Cellvation Sdn Bhd 赞助</li>
                 </ul>
-                <div class="h3"><span><b>4 x Par 3</b></span></div>
+                <div class="responsive-text"><span><b>4 x Par 3</b></span></div>
                 <ul>
-                    <li class="list2 h3 pl-4">蒂玛威士忌赞助</li>
+                    <li class="list2 responsive-text pl-4">蒂玛威士忌赞助</li>
                 </ul>
-                <div class="h3"><span><b>4 x Par 4</b></span></div>
+                <div class="responsive-text"><span><b>4 x Par 4</b></span></div>
                 <ul>
-                    <li class="list2 h3 pl-4">De.Wan by Chef Wan赞助</li>
-                    <li class="list2 h3 pl-4">雪邦黄金海岸阿瓦尼度假村赞助</li>
+                    <li class="list2 responsive-text pl-4">De.Wan by Chef Wan赞助</li>
+                    <li class="list2 responsive-text pl-4">雪邦黄金海岸阿瓦尼度假村赞助</li>
                 </ul>
-                <div class="h3"><span><b>2 x Par 5</b></span></div>
+                <div class="responsive-text"><span><b>2 x Par 5</b></span></div>
                 <ul>
-                    <li class="list2 h3 pl-4">猎豹酒庄赞助</li>
+                    <li class="list2 responsive-text pl-4">猎豹酒庄赞助</li>
                 </ul>
             </div>
         </div>
@@ -334,34 +362,30 @@
 
     <section>
         <div class="mt-5 row d-block d-lg-flex pb-3 pb-lg-0 py-0 justify-content-center" style="color:#40544c;">
-            <div class="col-lg-6 col-12 text-center pl-lg-5 py-3 px-4">
-                <img src="/assets/images/charity-golf/ambassador.png" width="75%"><br/>
-            </div>
-            <div class="col-lg-6 col-12 text-center my-auto pl-lg-5 py-3 pr-5">
-                <img src="/assets/images/charity-golf/president-huazong.png" width="78%">
-            </div>
-        </div>
-        <div class="row d-block d-lg-flex pb-3 pb-lg-0 py-0 justify-content-center" style="color:#40544c;">
-            <div class="col-lg-6 col-12 text-justify py-3 px-5" style="line-height: 45px">
-                <div class="px-5">
-                    <span class="h3">
-                        南非和马来西亚有着长久的历史联系和团结纽带。今年, 我们庆祝建交30周年, 同时我们将继续在未来构建我们的战略伙伴关系。
-                    </span>
+            <div class="col-lg-6 col-12 text-center my-auto pl-lg-5 py-3 px-4">
+                <img class="mb-4" src="/assets/images/charity-golf/ambassador.png" width="75%"><br/>
+                <div class="px-5 text-left py-3 px-5" style="line-height: 45px">
+                    <div class="pb-lg-1 pb-0">
+                        <span class="responsive-text mb-5">
+                            南非和马来西亚有着长久的历史联系和团结纽带。今年, 我们庆祝建交30周年, 同时我们将继续在未来构建我们的战略伙伴关系。
+                        </span>
+                    </div>
                     <br/>
-                    <br/>
-                    <span class="h3">
+                    <span class="responsive-text">
                         H.E. Dave Malcomson<br/>南非驻马来西亚大使。
                     </span>
                 </div>
             </div>
-            <div class="col-lg-6 col-12 text-justify py-3 px-5" style="line-height: 45px">
-                <div class="px-5">
-                    <span class="h3">
-                        以共情和团结携手共创一个不同的世界。通过这项协力合作, 可以加强两国外交关系, 并同时满足教育领域的重要需求。
-                    </span>
+            <div class="col-lg-6 col-12 text-center my-auto pl-lg-5 py-3 px-4">
+                <img class="mb-4" src="/assets/images/charity-golf/president-huazong.png" width="75%"><br/>
+                <div class="px-5 text-left py-3 px-5" style="line-height: 45px">
+                    <div class="pb-lg-1 pb-0">
+                        <span class="responsive-text">
+                            以共情和团结携手共创一个不同的世界。通过这项协力合作, 可以加强两国外交关系, 并同时满足教育领域的重要需求。
+                        </span>
+                    </div>
                     <br/>
-                    <br/>
-                    <span class="h3">
+                    <span class="responsive-text">
                         丹斯里拿督斯里邦里玛吴添泉局绅博士<br/>华总总会长
                     </span>
                 </div>
@@ -370,10 +394,10 @@
     </section>
 
     <section>
-        <div class="mt-5 row d-block d-lg-flex pb-3 pb-lg-0 py-0 py-lg-3 justify-content-center" style="background-color: #39594b;">
+        <div class="mt-2 my-lg-4 row d-block d-lg-flex py-3 pb-lg-0 py-0 py-lg-3 justify-content-center" style="background-color: #39594b;">
             <div class="col-12 text-center my-auto pl-lg-5 px-5">
-                <div class="px-lg-5 px-0 mx-lg-5 pb-3 text-center"><span class="golf-title1" style="">欢庆马来西亚与南非外交关系建立30周年晚宴</span></div>
-                <div class="px-lg-5 px-0 mx-lg-5 text-center"><span class="golf-title1" style="">由马来西亚中华大会堂总会(华总)主办</span></div>
+                <div class="px-lg-5 px-4 mx-lg-5 pb-3 text-center"><span class="golf-title1" style="">欢庆马来西亚与南非外交关系建立30周年晚宴</span></div>
+                <div class="px-lg-5 px-4 mx-lg-5 text-center"><span class="golf-title1" style="">由马来西亚中华大会堂总会(华总)主办</span></div>
             </div>
         </div>
 
@@ -412,14 +436,14 @@
     <section>
         <div class="my-3 my-lg-5 row d-block d-lg-flex pb-3 pb-lg-0 py-0 py-lg-3 justify-content-center">
             <div class="col-12 text-center my-auto pl-lg-5 px-5">
-                <div class="px-lg-5 px-0 mx-lg-5 pb-3 pb-lg-5 text-center"><span class="display-4" style="color: #40544c; font-weight: 500">非营利慈善拍卖会</span></div>
-                <div class="px-lg-5 px-5 mx-lg-5 text-center"><span class="golf-title1" style="color: #40544c;">慈善拍卖是一种筹款活动, 嘉宾通过出价竞拍物品, 拍卖所得的全部款项将全额捐赠给华总教育基金。</span></div>
+                <div class="px-lg-5 px-0 mx-lg-5 pb-3 pb-lg-5 text-center"><span class="responsive-title">非营利慈善拍卖会</span></div>
+                <div class="px-lg-5 px-1 mx-lg-5 text-center"><span class="golf-title1" style="color: #40544c;">慈善拍卖是一种筹款活动, 嘉宾通过出价竞拍物品, 拍卖所得的全部款项将全额捐赠给华总教育基金。</span></div>
             </div>
         </div>
         <div class="row mt-lg-5 pt-lg-5">
             <img src="/assets/images/charity-golf/3guys.png" width="100%">
         </div>
-        <div class="row pt-lg-5 mt-lg-5 mt-3 mb-2 mb-lg-0">
+        <div class="row pt-lg-5 mt-lg-5 mt-3 mb-5 mb-lg-0">
             <img src="/assets/images/charity-golf/lucky-draw.png" width="100%">
         </div>
     </section>
@@ -427,7 +451,7 @@
     <section class="mb-5 mb-lg-0">
         <div class="my-3 my-lg-5 row d-block d-lg-flex pb-3 pb-lg-0 py-0 py-lg-3 justify-content-center">
             <div class="col-12 text-center my-auto pl-lg-5 px-5">
-                <div class="px-lg-5 px-0 mx-lg-5 text-center"><span class="display-4" style="color: #40544c; font-weight: 500">赞助商</span></div>
+                <div class="px-lg-5 px-0 mx-lg-5 text-center"><span class="responsive-title">赞助商</span></div>
             </div>
         </div>
         <div class="row justify-content-center pb-4">
