@@ -100,7 +100,7 @@
 										<label for="description">
 											<i class="fa fa-square"></i> Group</label>
 										<div>
-											{{ $event->group->name ?? '-'}}
+											{{ $event->host->group->name ?? '-'}}
 										</div>
 									</div>
 								</div>
