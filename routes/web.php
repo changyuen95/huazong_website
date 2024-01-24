@@ -68,6 +68,10 @@ Route::get('/{any}', function () {
     return view('comingsoon');
 });
 
+// Survey Form //
+// Route::get('carlsberg-form/sabah', function(){
+//     return view('carlsberg-form.sabah');
+// });
 
 Auth::routes();
 
