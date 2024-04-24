@@ -13,7 +13,7 @@
 
 <div class="page-wrapper">
 
-    
+
 
     <!-- <section class="page-header" style="background-image: url(assets/images/event-detail/bg.png); background-repeat: no-repeat;">
         <div class="container" style="padding-left:0px;padding:right:0px">
@@ -57,7 +57,7 @@
                                 <table style="margin:5px;color:black" class="table table-responsive">
 
                                 <tr><td colspan="2"> <p style="text-align:center"><b>第 38 届全国华人文化节之大汇演/闭幕典礼</b><br><b>The 38th National Chinese Cultural Festival Show Closing Ceremony</b></p></tr>
-                                
+
                                 <tr>
                                     <td class="width:30%"><p>日期 Date：</p></td>
                                     <td class="width:70%"><p><b>08/10/2023 (Sunday)</b></p></td>
@@ -85,13 +85,13 @@
 
                                 <tr>
                                     <td class="width:30%"><p>7:50pm</p></td>
-                                    <td class="width:70%"><p> <b>Arrival of Special Guest : The Right Honourable Chief Minister of Sabah, 
+                                    <td class="width:70%"><p> <b>Arrival of Special Guest : The Right Honourable Chief Minister of Sabah,
 YAB Datuk Seri Panglima Haji Hajiji Bin Haji Noor<br>特别嘉宾 –沙巴州首席部长, 拿督斯里邦里玛哈芝芝·诺蒞臨</b></p></td>
                                 </tr>
 
                                 <tr>
                                     <td class="width:30%"><p>7:55pm</p></td>
-                                    <td class="width:70%"><p> <b>Arrival of Special Guest : Ambassador Extraordinary and Plenipotentiary of the People's Republic 
+                                    <td class="width:70%"><p> <b>Arrival of Special Guest : Ambassador Extraordinary and Plenipotentiary of the People's Republic
 of China to Malaysia，His Excellency Ambassador Ouyang Yujing<br>特别嘉宾 –中华人民共和国驻马来西亚特命全权大使，欧阳玉靖阁下蒞臨</b></p></td>
                                 </tr>
 
@@ -107,7 +107,7 @@ of China to Malaysia，His Excellency Ambassador Ouyang Yujing<br>特别嘉宾 �
 
                                 <tr>
                                     <td class="width:30%"><p></p></td>
-                                    <td class="width:70%"><p> <b>Speech delivered by Datuk Susan Wong, 
+                                    <td class="width:70%"><p> <b>Speech delivered by Datuk Susan Wong,
 Organising Chairlady of 38th National Chinese Cultural Festival<br>第三十八届全国华人文化节筹委会主席拿督黄小娟致词</b></p></td>
                                 </tr>
 
@@ -119,7 +119,7 @@ President of FCAS and Huazong Malaysia<br>沙巴中华大会堂兼马来西亚�
 
                                 <tr>
                                     <td class="width:30%"><p></p></td>
-                                    <td class="width:70%"><p> <b>Speech delivered by Special Guest : Ambassador Extraordinary and Plenipotentiary of the 
+                                    <td class="width:70%"><p> <b>Speech delivered by Special Guest : Ambassador Extraordinary and Plenipotentiary of the
 People's Republic of China to Malaysia，His Excellency Ambassador Ouyang Yujing<br>特别嘉宾 –中华人民共和国驻马来西亚特命全权大使，欧阳玉靖阁下致词</b></p></td>
                                 </tr>
 
@@ -150,7 +150,7 @@ President of FCAS and Huazong Malaysia<br>沙巴中华大会堂兼马来西亚�
                                     <td class="width:70%"><p> <b>Good night <br> 晚安！</b></p></td>
                                 </tr>
 
-                                
+
 
                                 </table>
 
@@ -159,8 +159,8 @@ President of FCAS and Huazong Malaysia<br>沙巴中华大会堂兼马来西亚�
                             </div><!-- /.blog-one__single -->
 
                         </div><!-- /.col-lg-12 -->
-                       
-                        
+
+
                         <div class="col-lg-12">
                             <hr>
                             <!-- 类别 & 标签 -->
@@ -188,9 +188,9 @@ President of FCAS and Huazong Malaysia<br>沙巴中华大会堂兼马来西亚�
                             <!-- <div class="d-flex flex-column mb-5">
                                 <button class="btn-thm">分享</button>
                             </div> -->
-                            
 
-                           
+
+
 
                         </div>
                     </div><!-- /.row -->
@@ -239,7 +239,7 @@ President of FCAS and Huazong Malaysia<br>沙巴中华大会堂兼马来西亚�
                                         <h3><a href="/event-detail/202307121423" style="font-size: 14px; line-height: 0.1px;">2023年东盟美食节将于9月19日至10月10日在中国上海国家会展中心盛大举行</a></h3>
                                     </div><!-- /.sidebar__post-content -->
                                 </div><!-- /.sidebar__post-single -->
-                               
+
                             </div><!-- /.sidebar__post -->
                         </div><!-- /.sidebar__single -->
                         <!-- <div class="sidebar__single">
@@ -341,7 +341,7 @@ President of FCAS and Huazong Malaysia<br>沙巴中华大会堂兼马来西亚�
         </div>
     </div><!-- /.side-menu__block-inner -->
 </div><!-- /.side-menu__block -->
-    
+
 <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 @endsection
 

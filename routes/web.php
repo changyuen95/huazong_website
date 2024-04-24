@@ -64,6 +64,18 @@ Route::get('huazong-education-fund-charity-golf', function () {
     return view('charity_golf');
 });
 
+Route::get('ballroom', function(){
+    return view('ballroom');
+});
+
+Route::get('list', function(){
+    return view('list');
+});
+
+Route::get('auditorium', function(){
+    return view('auditorium');
+});
+
 Route::get('/{any}', function () {
     return view('comingsoon');
 });
